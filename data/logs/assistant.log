@@ -1,0 +1,231 @@
+2026-05-11 11:21:27,905 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-11 11:21:27,906 - __main__ - INFO - Starting in interactive mode
+2026-05-11 11:21:27,983 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-11 11:21:27,983 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-05-11 11:21:28,212 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-11 11:21:28,213 - core.commands - INFO - CommandProcessor initialized
+2026-05-11 11:21:28,215 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-11 11:21:28,215 - features.conversation - INFO - Greeting provided
+2026-05-11 11:22:37,357 - features.conversation - INFO - Farewell provided
+2026-05-11 11:22:37,358 - __main__ - INFO - Interrupted by user
+2026-05-11 11:22:37,358 - __main__ - INFO - Voice Assistant shutdown complete
+2026-05-11 11:22:38,034 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-11 11:22:38,035 - __main__ - INFO - Starting in GUI mode
+2026-05-11 11:22:38,273 - features.conversation - INFO - Greeting provided
+2026-05-11 11:22:38,284 - features.time_date - INFO - Retrieved current time: 11:22 AM
+2026-05-11 11:22:38,285 - features.time_date - INFO - Retrieved current date: Monday, May 11, 2026
+2026-05-11 11:22:39,802 - features.weather - INFO - Weather service available: True
+2026-05-11 11:22:39,821 - features.notes - INFO - Listed 0 notes
+2026-05-11 11:22:39,822 - features.reminders - INFO - Listed 0 reminders
+2026-05-11 11:22:40,235 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-11 11:22:40,236 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-05-11 11:22:40,418 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-11 11:22:40,418 - gui.assistant_gui - INFO - GUI initialized
+2026-05-11 11:22:40,418 - gui.assistant_gui - INFO - Starting GUI application
+2026-05-11 11:23:26,119 - core.speech_engine - WARNING - Could not understand audio
+2026-05-11 11:23:26,120 - core.speech_engine - ERROR - Error in text-to-speech: run loop already started
+2026-05-11 11:23:55,052 - core.speech_engine - WARNING - Could not understand audio
+2026-05-11 11:24:00,392 - core.speech_engine - WARNING - Could not understand audio
+2026-05-11 11:24:03,880 - features.weather - WARNING - Weather API key not configured
+2026-05-11 11:24:07,975 - features.conversation - INFO - Joke provided
+2026-05-11 11:24:34,392 - core.speech_engine - WARNING - Could not understand audio
+2026-05-11 11:25:29,648 - core.speech_engine - WARNING - Could not understand audio
+2026-05-11 11:25:45,463 - __main__ - INFO - Voice Assistant shutdown complete
+2026-05-11 11:26:52,803 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-11 11:26:52,803 - __main__ - INFO - Starting in interactive mode
+2026-05-11 11:26:52,850 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-11 11:26:52,851 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-05-11 11:26:52,992 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-11 11:26:52,992 - core.commands - INFO - CommandProcessor initialized
+2026-05-11 11:26:52,994 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-11 11:26:52,995 - features.conversation - INFO - Greeting provided
+2026-05-11 11:26:54,777 - features.conversation - INFO - Farewell provided
+2026-05-11 11:26:54,777 - __main__ - INFO - Interrupted by user
+2026-05-11 11:26:54,778 - __main__ - INFO - Voice Assistant shutdown complete
+2026-05-11 11:26:55,284 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-11 11:26:55,284 - __main__ - INFO - Starting in interactive mode
+2026-05-11 11:26:55,327 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-11 11:26:55,328 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-05-11 11:26:55,470 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-11 11:26:55,470 - core.commands - INFO - CommandProcessor initialized
+2026-05-11 11:26:55,472 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-11 11:26:55,473 - features.conversation - INFO - Greeting provided
+2026-05-11 11:27:12,114 - core.commands - INFO - Processing command: open goggle
+2026-05-11 11:27:12,319 - core.utils - INFO - Opened website: https://goggle.com
+2026-05-11 11:27:12,319 - features.web_browsing - INFO - Opened website: goggle
+2026-05-11 11:27:45,113 - core.commands - INFO - Processing command: open youtube
+2026-05-11 11:27:45,200 - core.utils - INFO - Opened website: https://www.youtube.com
+2026-05-11 11:27:45,200 - features.web_browsing - INFO - Opened website: youtube
+2026-05-11 11:28:35,274 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-11 11:28:35,274 - __main__ - INFO - Starting in GUI mode
+2026-05-11 11:28:35,397 - features.conversation - INFO - Greeting provided
+2026-05-11 11:28:35,406 - features.time_date - INFO - Retrieved current time: 11:28 AM
+2026-05-11 11:28:35,406 - features.time_date - INFO - Retrieved current date: Monday, May 11, 2026
+2026-05-11 11:28:36,864 - features.weather - INFO - Weather service available: True
+2026-05-11 11:28:36,868 - features.notes - INFO - Listed 0 notes
+2026-05-11 11:28:36,870 - features.reminders - INFO - Listed 0 reminders
+2026-05-11 11:28:37,168 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-11 11:28:37,170 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-05-11 11:28:37,328 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-11 11:28:37,329 - gui.assistant_gui - INFO - GUI initialized
+2026-05-11 11:28:37,329 - gui.assistant_gui - INFO - Starting GUI application
+2026-05-11 11:29:12,855 - core.speech_engine - WARNING - Could not understand audio
+2026-05-11 11:31:35,487 - core.speech_engine - INFO - Recognized: hello
+2026-05-11 11:32:12,510 - core.speech_engine - WARNING - Could not understand audio
+2026-05-11 11:32:38,003 - core.speech_engine - WARNING - Could not understand audio
+2026-05-11 11:32:47,962 - core.speech_engine - WARNING - Could not understand audio
+2026-05-13 09:20:00,715 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-13 09:20:00,715 - __main__ - INFO - Starting in interactive mode
+2026-05-13 09:20:00,841 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-13 09:20:00,841 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-05-13 09:20:01,069 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-13 09:20:01,070 - core.commands - INFO - CommandProcessor initialized
+2026-05-13 09:20:01,073 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-13 09:20:01,073 - features.conversation - INFO - Greeting provided
+2026-05-13 09:20:23,080 - core.commands - INFO - Processing command: i want you to open youtube
+2026-05-13 09:20:23,080 - features.conversation - INFO - Confused response provided
+2026-05-13 09:20:50,855 - core.commands - INFO - Processing command: open goggle
+2026-05-13 09:20:51,115 - core.utils - INFO - Opened website: https://goggle.com
+2026-05-13 09:20:51,115 - features.web_browsing - INFO - Opened website: goggle
+2026-05-13 09:21:26,528 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-13 09:21:26,529 - __main__ - INFO - Starting in interactive mode
+2026-05-13 09:21:26,583 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-13 09:21:26,584 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-05-13 09:21:26,757 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-13 09:21:26,757 - core.commands - INFO - CommandProcessor initialized
+2026-05-13 09:21:26,759 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-13 09:21:26,760 - features.conversation - INFO - Greeting provided
+2026-05-13 09:22:31,102 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-13 09:22:31,103 - __main__ - INFO - Starting in GUI mode
+2026-05-13 09:22:31,307 - features.conversation - INFO - Greeting provided
+2026-05-13 09:22:31,314 - features.time_date - INFO - Retrieved current time: 09:22 AM
+2026-05-13 09:22:31,314 - features.time_date - INFO - Retrieved current date: Wednesday, May 13, 2026
+2026-05-13 09:22:33,610 - features.weather - INFO - Weather service available: True
+2026-05-13 09:22:33,615 - features.notes - INFO - Listed 0 notes
+2026-05-13 09:22:33,617 - features.reminders - INFO - Listed 0 reminders
+2026-05-13 09:22:34,783 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-13 09:22:34,784 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-05-13 09:22:35,270 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-13 09:22:35,270 - gui.assistant_gui - INFO - GUI initialized
+2026-05-13 09:22:35,271 - gui.assistant_gui - INFO - Starting GUI application
+2026-05-13 09:23:16,713 - gui.assistant_gui - ERROR - Error in listen_command: module 'speech_recognition' has no attribute 'MicrophoneError'
+2026-05-13 09:23:38,138 - gui.assistant_gui - ERROR - Error in listen_command: module 'speech_recognition' has no attribute 'MicrophoneError'
+2026-05-13 09:23:44,831 - __main__ - INFO - Voice Assistant shutdown complete
+2026-05-13 09:25:23,895 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-13 09:25:23,895 - __main__ - INFO - Starting in GUI mode
+2026-05-13 09:25:24,007 - features.conversation - INFO - Greeting provided
+2026-05-13 09:25:24,011 - features.time_date - INFO - Retrieved current time: 09:25 AM
+2026-05-13 09:25:24,011 - features.time_date - INFO - Retrieved current date: Wednesday, May 13, 2026
+2026-05-13 09:25:25,386 - features.weather - INFO - Weather service available: True
+2026-05-13 09:25:25,390 - features.notes - INFO - Listed 0 notes
+2026-05-13 09:25:25,391 - features.reminders - INFO - Listed 0 reminders
+2026-05-13 09:25:25,674 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-13 09:25:25,675 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-05-13 09:25:25,824 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-13 09:25:25,826 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-13 09:25:25,827 - core.commands - INFO - CommandProcessor initialized
+2026-05-13 09:25:25,827 - gui.assistant_gui - INFO - GUI initialized
+2026-05-13 09:25:25,827 - gui.assistant_gui - INFO - Starting GUI application
+2026-05-13 09:25:35,043 - core.speech_engine - ERROR - Microphone error: listening timed out while waiting for phrase to start
+2026-05-13 09:25:51,348 - core.speech_engine - INFO - Recognized: open Google
+2026-05-13 09:25:55,701 - core.commands - INFO - Processing command: open google
+2026-05-13 09:25:55,922 - core.utils - INFO - Opened website: https://www.google.com
+2026-05-13 09:25:55,922 - features.web_browsing - INFO - Opened website: google
+2026-05-13 09:27:36,088 - core.speech_engine - ERROR - Microphone error: listening timed out while waiting for phrase to start
+2026-05-13 09:27:54,432 - core.speech_engine - ERROR - Microphone error: listening timed out while waiting for phrase to start
+2026-05-13 09:28:03,344 - core.speech_engine - ERROR - Microphone error: listening timed out while waiting for phrase to start
+2026-05-13 09:28:16,756 - core.speech_engine - INFO - Recognized: open YouTube
+2026-05-13 09:28:22,621 - core.commands - INFO - Processing command: open youtube
+2026-05-13 09:28:22,727 - core.utils - INFO - Opened website: https://www.youtube.com
+2026-05-13 09:28:22,727 - features.web_browsing - INFO - Opened website: youtube
+2026-05-13 09:28:42,820 - __main__ - INFO - Voice Assistant shutdown complete
+2026-05-13 10:31:01,086 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-13 10:31:01,087 - __main__ - INFO - Starting in interactive mode
+2026-05-13 10:31:01,147 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-13 10:31:01,147 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-05-13 10:31:01,262 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-13 10:31:01,263 - core.commands - INFO - CommandProcessor initialized
+2026-05-13 10:31:01,264 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-13 10:31:01,264 - features.conversation - INFO - Greeting provided
+2026-05-13 10:31:09,342 - core.commands - INFO - Processing command: open google
+2026-05-13 10:31:09,420 - core.utils - INFO - Opened website: https://www.google.com
+2026-05-13 10:31:09,420 - features.web_browsing - INFO - Opened website: google
+2026-05-13 10:32:38,231 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-13 10:32:38,232 - __main__ - INFO - Starting in GUI mode
+2026-05-13 10:32:38,332 - features.conversation - INFO - Greeting provided
+2026-05-13 10:32:38,337 - features.time_date - INFO - Retrieved current time: 10:32 AM
+2026-05-13 10:32:38,338 - features.time_date - INFO - Retrieved current date: Wednesday, May 13, 2026
+2026-05-13 10:32:40,052 - features.weather - INFO - Weather service available: True
+2026-05-13 10:32:40,060 - features.notes - INFO - Listed 0 notes
+2026-05-13 10:32:40,061 - features.reminders - INFO - Listed 0 reminders
+2026-05-13 10:32:40,489 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-13 10:32:40,489 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-05-13 10:32:40,617 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-13 10:32:40,619 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-13 10:32:40,620 - core.commands - INFO - CommandProcessor initialized
+2026-05-13 10:32:40,620 - gui.assistant_gui - INFO - GUI initialized
+2026-05-13 10:32:40,620 - gui.assistant_gui - INFO - Starting GUI application
+2026-05-13 10:32:55,141 - core.speech_engine - ERROR - Microphone error: listening timed out while waiting for phrase to start
+2026-05-13 10:33:05,278 - core.speech_engine - ERROR - Microphone error: listening timed out while waiting for phrase to start
+2026-05-13 10:33:11,727 - __main__ - INFO - Voice Assistant shutdown complete
+2026-05-13 10:33:18,009 - core.commands - INFO - Processing command: open youtube
+2026-05-13 10:33:18,135 - core.utils - INFO - Opened website: https://www.youtube.com
+2026-05-13 10:33:18,135 - features.web_browsing - INFO - Opened website: youtube
+2026-05-13 15:25:27,018 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-13 15:25:27,018 - __main__ - INFO - Starting in GUI mode
+2026-05-13 15:25:27,207 - features.conversation - INFO - Greeting provided
+2026-05-13 15:25:27,213 - features.time_date - INFO - Retrieved current time: 03:25 PM
+2026-05-13 15:25:27,213 - features.time_date - INFO - Retrieved current date: Wednesday, May 13, 2026
+2026-05-13 15:25:28,904 - features.weather - INFO - Weather service available: True
+2026-05-13 15:25:28,922 - features.notes - INFO - Listed 0 notes
+2026-05-13 15:25:28,926 - features.reminders - INFO - Listed 0 reminders
+2026-05-13 15:25:29,491 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-13 15:25:29,492 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-05-13 15:25:29,819 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-13 15:25:29,820 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-13 15:25:29,820 - core.commands - INFO - CommandProcessor initialized
+2026-05-13 15:25:29,821 - gui.assistant_gui - INFO - GUI initialized
+2026-05-13 15:25:29,821 - gui.assistant_gui - INFO - Starting GUI application
+2026-05-13 15:25:58,750 - core.speech_engine - ERROR - Microphone error: listening timed out while waiting for phrase to start
+2026-05-13 15:26:08,671 - core.speech_engine - ERROR - Microphone error: listening timed out while waiting for phrase to start
+2026-05-13 15:26:21,708 - core.speech_engine - WARNING - Could not understand audio
+2026-05-13 15:26:25,239 - __main__ - INFO - Voice Assistant shutdown complete
+2026-05-13 15:26:32,617 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-13 15:26:32,617 - __main__ - INFO - Starting in interactive mode
+2026-05-13 15:26:32,667 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-13 15:26:32,668 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-05-13 15:26:32,814 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-13 15:26:32,815 - core.commands - INFO - CommandProcessor initialized
+2026-05-13 15:26:32,817 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-13 15:26:32,817 - features.conversation - INFO - Greeting provided
+2026-05-13 15:26:41,258 - core.commands - INFO - Processing command: open google
+2026-05-13 15:26:41,473 - core.utils - INFO - Opened website: https://www.google.com
+2026-05-13 15:26:41,473 - features.web_browsing - INFO - Opened website: google
+2026-05-13 15:29:31,770 - core.commands - INFO - Processing command: open youtube
+2026-05-13 15:29:31,860 - core.utils - INFO - Opened website: https://www.youtube.com
+2026-05-13 15:29:31,861 - features.web_browsing - INFO - Opened website: youtube
+2026-05-13 15:30:06,330 - core.commands - INFO - Processing command: tell me today date and time
+2026-05-13 15:30:06,330 - features.time_date - INFO - Retrieved current time: 03:30 PM
+2026-05-13 15:30:40,275 - core.commands - INFO - Processing command: tell me a joke
+2026-05-13 15:30:40,276 - features.conversation - INFO - Chat request: tell me a joke
+2026-05-13 15:30:40,277 - features.conversation - INFO - Joke provided
+2026-05-13 15:30:40,277 - features.conversation - INFO - Pattern matched: tell me a joke
+2026-05-13 15:32:35,679 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-13 15:32:35,679 - __main__ - INFO - Starting in GUI mode
+2026-05-13 15:32:35,814 - features.conversation - INFO - Greeting provided
+2026-05-13 15:32:35,817 - features.time_date - INFO - Retrieved current time: 03:32 PM
+2026-05-13 15:32:35,817 - features.time_date - INFO - Retrieved current date: Wednesday, May 13, 2026
+2026-05-13 15:32:36,602 - features.weather - INFO - Weather service available: True
+2026-05-13 15:32:36,611 - features.notes - INFO - Listed 0 notes
+2026-05-13 15:32:36,612 - features.reminders - INFO - Listed 0 reminders
+2026-05-13 15:32:36,880 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-13 15:32:36,881 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-05-13 15:32:37,029 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-13 15:32:37,031 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-13 15:32:37,031 - core.commands - INFO - CommandProcessor initialized
+2026-05-13 15:32:37,031 - gui.assistant_gui - INFO - GUI initialized
+2026-05-13 15:32:37,031 - gui.assistant_gui - INFO - Starting GUI application
+2026-05-13 15:32:47,428 - features.weather - WARNING - Weather API key not configured
+2026-05-13 15:32:52,334 - features.conversation - INFO - Joke provided
+2026-05-13 15:33:21,763 - core.speech_engine - ERROR - Microphone error: listening timed out while waiting for phrase to start
+2026-05-13 15:33:29,165 - __main__ - INFO - Voice Assistant shutdown complete
