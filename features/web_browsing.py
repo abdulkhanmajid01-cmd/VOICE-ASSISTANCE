@@ -26,10 +26,21 @@ def open_website_command(command):
         keywords = ["open", "go to", "visit", "browse"]
         website_name = ""
         
-        for keyword in keywords:
-            if keyword in command.lower():
-                website_name = extract_query_from_command(command, keyword)
-                break
+        # Special handling for specific websites
+        if "google" in command.lower():
+            website_name = "google"
+        elif "youtube" in command.lower():
+            website_name = "youtube"
+        elif "github" in command.lower():
+            website_name = "github"
+        elif "wikipedia" in command.lower():
+            website_name = "wikipedia"
+        else:
+            # Generic extraction for other websites
+            for keyword in keywords:
+                if keyword in command.lower():
+                    website_name = extract_query_from_command(command, keyword)
+                    break
         
         if not website_name:
             return False, "Please specify which website you want to open."
@@ -76,7 +87,7 @@ def search_google_command(command):
 
 def search_youtube_command(command):
     """
-    Search YouTube based on command.
+    Search YouTube based on command with improved song extraction.
     
     Args:
         command (str): Voice command
@@ -85,16 +96,24 @@ def search_youtube_command(command):
         tuple: (success: bool, message: str)
     """
     try:
-        query = extract_query_from_command(command, "search youtube for")
+        # Try multiple extraction methods
+        query = extract_query_from_command(command, "play")
+        if not query:
+            query = extract_query_from_command(command, "search youtube for")
         if not query:
             query = extract_query_from_command(command, "youtube")
+        
+        # Remove common terms that don't help with search
+        common_terms = ["and", "on youtube", "from youtube"]
+        for term in common_terms:
+            query = query.replace(term, "").strip()
         
         if not query:
             return False, "What would you like me to search for?"
         
         if search_youtube(query):
             logger.info(f"Searched YouTube: {query}")
-            return True, f"Searching YouTube for {query}"
+            return True, f"Opening YouTube and searching for {query}"
         else:
             return False, "I couldn't perform the search."
     except Exception as e:

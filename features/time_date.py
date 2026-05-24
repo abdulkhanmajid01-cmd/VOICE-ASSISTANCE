@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 
 def get_current_time():
     """
-    Get and speak the current time.
+    Get and speak the current time with natural language.
     
     Returns:
         str: Formatted current time
@@ -31,7 +31,7 @@ def get_current_time():
 
 def get_current_date():
     """
-    Get and speak the current date.
+    Get and speak the current date with natural language.
     
     Returns:
         str: Formatted current date
@@ -39,11 +39,32 @@ def get_current_date():
     try:
         current_date = datetime.now()
         date_string = format_date(current_date)
+        day_of_week = current_date.strftime("%A")
         logger.info(f"Retrieved current date: {date_string}")
-        return f"Today is {date_string}"
+        return f"Today is {day_of_week}, {date_string}"
     except Exception as e:
         logger.error(f"Error getting current date: {e}")
         return "I couldn't retrieve the current date."
+
+
+def get_date_and_time():
+    """
+    Get both date and time in natural language format.
+    
+    Returns:
+        str: Formatted date and time
+    """
+    try:
+        now = datetime.now()
+        time_string = format_time(now)
+        date_string = format_date(now)
+        day_of_week = now.strftime("%A")
+        
+        logger.info(f"Retrieved date and time: {date_string}, {time_string}")
+        return f"Today is {day_of_week}, {date_string}, and the current time is {time_string}"
+    except Exception as e:
+        logger.error(f"Error getting date and time: {e}")
+        return "I couldn't retrieve the date and time."
 
 
 def get_day_of_week():

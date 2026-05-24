@@ -5,10 +5,10 @@ Handles command recognition and routing to appropriate features
 
 import logging
 from config import DEBUG_MODE, MAX_RETRIES
-from core.speech_engine import SpeechEngine
+from core.speech_engine import get_speech_engine
 
 # Import feature modules
-from features.time_date import get_current_time, get_current_date
+from features.time_date import get_current_time, get_current_date, get_date_and_time
 from features.web_browsing import open_website_command, search_google_command, search_youtube_command
 from features.wikipedia_search import search_wikipedia
 from features.music import play_music, list_music_files
@@ -38,7 +38,7 @@ class CommandProcessor:
     
     def __init__(self):
         """Initialize command processor."""
-        self.speech_engine = SpeechEngine()
+        self.speech_engine = get_speech_engine()
         self.command_history = []
         logger.info("CommandProcessor initialized")
     
@@ -76,7 +76,7 @@ class CommandProcessor:
     
     def _route_command(self, command):
         """
-        Route command to appropriate handler.
+        Route command to appropriate handler with smart command parsing.
         
         Args:
             command (str): Command text
@@ -84,6 +84,81 @@ class CommandProcessor:
         Returns:
             str: Response message
         """
+        # ==================== SPECIFIC WEBSITES ====================
+        # Handle Google
+        if any(phrase in command for phrase in ["open google", "search google", "go to google"]):
+            success, msg = open_website_command("open google")
+            if success:
+                return msg
+        
+        # Handle YouTube
+        if any(phrase in command for phrase in ["open youtube", "go to youtube"]):
+            success, msg = search_youtube_command("play")
+            if success:
+                return msg
+        
+        # Handle GitHub
+        if any(phrase in command for phrase in ["open github", "go to github", "visit github"]):
+            success, msg = open_website_command("open github")
+            if success:
+                return msg
+        
+        # Handle Wikipedia
+        if any(phrase in command for phrase in ["open wikipedia", "go to wikipedia", "visit wikipedia"]):
+            success, msg = open_website_command("open wikipedia")
+            if success:
+                return msg
+        
+        # ==================== MUSIC (CHECK BEFORE GENERIC PLAY) ====================
+        if "play music" in command or "play a song" in command:
+            success, msg = play_music()
+            if success:
+                return msg
+            else:
+                # Fallback to YouTube if no local music found
+                success, msg = search_youtube_command("play music")
+                if success:
+                    return msg
+                return "Opening YouTube to play music"
+        
+        if "stop music" in command or "pause music" in command:
+            return "Music stopped"
+        
+        if "list songs" in command or "show music" in command:
+            songs = list_music_files()
+            if songs:
+                return f"Found {len(songs)} songs: " + ", ".join(songs[:5])
+            return "No songs found"
+        
+        # ==================== SMART COMMAND HANDLING ====================
+        # Play [song] on YouTube
+        if self._matches_pattern(command, ["play", "on youtube"]):
+            song = self._extract_between(command, "play", "on youtube")
+            if song:
+                success, msg = search_youtube_command(f"play {song}")
+                return msg if success else None
+        
+        # Play [song]
+        if command.startswith("play ") and "youtube" not in command:
+            song = command.replace("play", "").strip()
+            if song:
+                success, msg = search_youtube_command(f"play {song}")
+                return msg if success else None
+        
+        # Search [query] on Google
+        if self._matches_pattern(command, ["search", "on google", "google"]):
+            query = self._extract_search_query(command, "google")
+            if query:
+                success, msg = search_google_command(f"search {query}")
+                return msg if success else None
+        
+        # Open [website]
+        if command.startswith("open "):
+            website = command.replace("open", "").strip()
+            if website:
+                success, msg = open_website_command(f"open {website}")
+                return msg if success else None
+        
         # ==================== GREETING/FAREWELL ====================
         if any(word in command for word in ["hello", "hi", "hey", "good morning", "good afternoon"]):
             return get_greeting()
@@ -92,20 +167,26 @@ class CommandProcessor:
             return get_farewell()
         
         # ==================== TIME AND DATE ====================
-        if any(word in command for word in ["time", "current time", "what time"]):
+        # Check for combined date and time requests first
+        if any(phrase in command for phrase in ["date and time", "time and date", "what is today", "current date and time"]):
+            return get_date_and_time()
+        
+        if any(word in command for word in ["time", "current time", "what time", "tell me the time"]):
             return get_current_time()
         
-        if any(word in command for word in ["date", "current date", "today"]):
+        if any(word in command for word in ["date", "current date", "today", "what is today"]):
             return get_current_date()
         
         # ==================== WEB BROWSING ====================
         if "open" in command or "visit" in command or "go to" in command:
             success, msg = open_website_command(command)
-            return msg if success else None
+            if success:
+                return msg
         
         if "search google" in command or "google" in command:
             success, msg = search_google_command(command)
-            return msg if success else None
+            if success:
+                return msg
         
         if "search youtube" in command or "youtube" in command:
             success, msg = search_youtube_command(command)
@@ -117,20 +198,6 @@ class CommandProcessor:
             if query:
                 success, result = search_wikipedia(query)
                 return result if success else None
-        
-        # ==================== MUSIC ====================
-        if "play music" in command or "play a song" in command:
-            success, msg = play_music()
-            return msg if success else None
-        
-        if "stop music" in command or "pause music" in command:
-            return "Music stopped"
-        
-        if "list songs" in command or "show music" in command:
-            songs = list_music_files()
-            if songs:
-                return f"Found {len(songs)} songs: " + ", ".join(songs[:5])
-            return "No songs found"
         
         # ==================== APPLICATIONS ====================
         if "open" in command and "application" in command:
@@ -274,6 +341,35 @@ class CommandProcessor:
         except Exception as e:
             logger.error(f"Error handling single command: {e}")
             return False, "An error occurred", ""
+    
+    # ==================== SMART COMMAND HELPERS ====================
+    def _matches_pattern(self, command, patterns):
+        """Check if command matches any pattern"""
+        return any(pattern in command for pattern in patterns)
+    
+    def _extract_between(self, text, start_word, end_word):
+        """Extract text between two keywords"""
+        try:
+            start_idx = text.lower().find(start_word.lower())
+            end_idx = text.lower().find(end_word.lower())
+            
+            if start_idx != -1 and end_idx != -1 and start_idx < end_idx:
+                result = text[start_idx + len(start_word):end_idx].strip()
+                return result if result else None
+            return None
+        except:
+            return None
+    
+    def _extract_search_query(self, command, platform):
+        """Extract search query from command"""
+        # Remove platform name and search-related words
+        query = command.lower()
+        query = query.replace(f"on {platform}", "")
+        query = query.replace(f"search {platform}", "")
+        query = query.replace("search", "")
+        query = query.replace(platform, "")
+        query = query.strip()
+        return query if query else None
 
 
 # Global command processor instance

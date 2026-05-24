@@ -9,7 +9,7 @@ from pathlib import Path
 # ==================== APPLICATION SETTINGS ====================
 APP_NAME = "Voice Assistant"
 APP_VERSION = "2.0.0"
-DEVELOPER = "Your Name"
+DEVELOPER = "abdul majid khan"
 RELEASE_DATE = "2026"
 
 # ==================== PATHS ====================
@@ -26,18 +26,23 @@ for directory in [DATA_DIR, NOTES_DIR, REMINDERS_DIR, LOGS_DIR]:
 # ==================== SPEECH RECOGNITION SETTINGS ====================
 LANGUAGE = "en-US"
 MIC_INDEX = None  # Use default microphone (set to specific index if needed)
-SPEECH_TIMEOUT = 10  # Timeout for speech recognition in seconds
+SPEECH_TIMEOUT = 5  # Timeout for speech recognition in seconds (reduced for faster recognition)
 SPEECH_PHRASE_LIMIT = 10  # Maximum phrases to listen to
-LISTEN_TIMEOUT = 1  # Timeout for listening
+LISTEN_TIMEOUT = 2  # Timeout for listening (seconds to wait for speech to start - reduced for speed)
+ENERGY_THRESHOLD = 800  # Microphone energy threshold (lower = more sensitive - lowered for better detection)
+DYNAMIC_ENERGY_THRESHOLD = True  # Enable adaptive noise cancellation
+AMBIENT_NOISE_DURATION = 0.5  # Seconds to adjust for ambient noise (reduced for faster startup)
 
 # ==================== TEXT-TO-SPEECH SETTINGS ====================
-TTS_RATE = 150  # Speech rate (100-200 recommended)
-TTS_VOLUME = 0.9  # Volume level (0.0-1.0)
+TTS_RATE = 200  # Speech rate (100-200 recommended - increased for faster speech)
+TTS_VOLUME = 1.0  # Volume level (0.0-1.0) - Maximum volume for clarity
 TTS_VOICE_ID = 0  # 0 for male, 1 for female (depends on system)
 
 # ==================== WAKE WORD SETTINGS ====================
-WAKE_WORD = "hey assistant"  # Wake word to activate assistant
-WAKE_WORD_SENSITIVITY = 0.5  # Sensitivity for wake word detection (0.0-1.0)
+WAKE_WORDS = ["jarvis", "assistant", "hey jarvis", "hey assistant"]  # Wake words to activate assistant
+WAKE_WORD_ENABLED = True  # Enable wake word detection
+WAKE_WORD_SENSITIVITY = 0.7  # Sensitivity for wake word detection (0.0-1.0)
+BACKGROUND_LISTENING = True  # Enable continuous background listening
 
 # ==================== WEATHER SETTINGS ====================
 WEATHER_API_KEY = "YOUR_API_KEY_HERE"  # Get from openweathermap.org
@@ -51,11 +56,13 @@ SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 
 # ==================== GUI SETTINGS ====================
-GUI_THEME_COLOR = "#2C3E50"
-GUI_ACCENT_COLOR = "#3498DB"
+GUI_THEME_COLOR = "#0D1117"  # Dark background
+GUI_ACCENT_COLOR = "#58A6FF"  # Modern blue
+GUI_SECONDARY_COLOR = "#1F6FEB"  # Secondary blue
 GUI_FONT_SIZE = 10
-GUI_WINDOW_WIDTH = 800
-GUI_WINDOW_HEIGHT = 600
+GUI_WINDOW_WIDTH = 900
+GUI_WINDOW_HEIGHT = 700
+GUI_THEME = "modern_dark"  # Theme name
 
 # ==================== COMMAND RECOGNITION ====================
 # Sensitivity for command matching (0.0-1.0)
@@ -69,12 +76,13 @@ DEBUG_MODE = True  # Set to False for production
 LOG_LEVEL = "INFO"  # DEBUG, INFO, WARNING, ERROR, CRITICAL
 
 # ==================== FEATURE FLAGS ====================
-ENABLE_WAKE_WORD = False  # Enable wake word detection
+ENABLE_WAKE_WORD = True  # Enable wake word detection
 ENABLE_CHATBOT = True  # Enable AI chatbot
 ENABLE_GUI = True  # Enable Tkinter GUI
 ENABLE_EMAIL = False  # Enable email sending (requires configuration)
 ENABLE_REMINDERS = True  # Enable reminder system
 ENABLE_MUSIC = True  # Enable music player
+ENABLE_BACKGROUND_LISTENING = True  # Enable continuous background listening
 
 # ==================== MUSIC PLAYER SETTINGS ====================
 MUSIC_FOLDERS = [

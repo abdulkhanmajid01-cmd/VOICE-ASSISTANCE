@@ -2,7 +2,7 @@
 Voice Assistant - Main Entry Point
 A professional Python-based Voice Assistant with advanced features
 
-Author: Your Name
+Author: Abdul Majid Khan
 Version: 2.0.0
 License: MIT
 
@@ -40,7 +40,7 @@ from config import APP_NAME, APP_VERSION, ENABLE_GUI, ENABLE_CHATBOT
 from core.commands import get_command_processor
 from core.speech_engine import get_speech_engine, listen, speak
 from features.conversation import get_greeting, get_farewell
-from gui.assistant_gui import run_gui
+from gui.modern_gui import run_modern_gui
 
 
 def print_banner():
@@ -205,12 +205,12 @@ def single_voice_mode():
 
 
 def gui_mode():
-    """Run the assistant with GUI interface."""
-    logger.info("Starting in GUI mode")
+    """Run the assistant with modern GUI interface."""
+    logger.info("Starting in Modern GUI mode")
     try:
-        run_gui()
+        run_modern_gui()
     except Exception as e:
-        logger.error(f"Error in GUI mode: {e}")
+        logger.error(f"Error in Modern GUI mode: {e}")
         print(f"Error: {e}")
 
 

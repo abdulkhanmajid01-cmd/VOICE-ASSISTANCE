@@ -229,3 +229,1310 @@
 2026-05-13 15:32:52,334 - features.conversation - INFO - Joke provided
 2026-05-13 15:33:21,763 - core.speech_engine - ERROR - Microphone error: listening timed out while waiting for phrase to start
 2026-05-13 15:33:29,165 - __main__ - INFO - Voice Assistant shutdown complete
+2026-05-14 06:49:24,782 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-14 06:49:24,784 - __main__ - INFO - Starting in interactive mode
+2026-05-14 06:49:24,835 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-14 06:49:24,835 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-05-14 06:49:25,032 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-14 06:49:25,032 - core.commands - INFO - CommandProcessor initialized
+2026-05-14 06:49:25,034 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-14 06:49:25,034 - features.conversation - INFO - Greeting provided
+2026-05-14 06:49:40,079 - core.commands - INFO - Processing command: open goggle
+2026-05-14 06:49:41,027 - core.utils - INFO - Opened website: https://goggle.com
+2026-05-14 06:49:41,028 - features.web_browsing - INFO - Opened website: goggle
+2026-05-14 06:49:56,088 - core.commands - INFO - Processing command: open youtube
+2026-05-14 06:49:56,160 - core.utils - INFO - Opened website: https://www.youtube.com
+2026-05-14 06:49:56,160 - features.web_browsing - INFO - Opened website: youtube
+2026-05-14 06:51:59,476 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-14 06:51:59,477 - __main__ - INFO - Starting in GUI mode
+2026-05-14 06:51:59,611 - features.conversation - INFO - Greeting provided
+2026-05-14 06:51:59,615 - features.time_date - INFO - Retrieved current time: 06:51 AM
+2026-05-14 06:51:59,615 - features.time_date - INFO - Retrieved current date: Thursday, May 14, 2026
+2026-05-14 06:52:00,488 - features.weather - INFO - Weather service available: True
+2026-05-14 06:52:00,498 - features.notes - INFO - Listed 0 notes
+2026-05-14 06:52:00,500 - features.reminders - INFO - Listed 0 reminders
+2026-05-14 06:52:00,938 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-14 06:52:00,939 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-05-14 06:52:01,099 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-14 06:52:01,101 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-14 06:52:01,102 - core.commands - INFO - CommandProcessor initialized
+2026-05-14 06:52:01,102 - gui.assistant_gui - INFO - GUI initialized
+2026-05-14 06:52:01,102 - gui.assistant_gui - INFO - Starting GUI application
+2026-05-14 06:52:12,092 - core.speech_engine - ERROR - Microphone error: listening timed out while waiting for phrase to start
+2026-05-14 06:52:17,962 - __main__ - INFO - Voice Assistant shutdown complete
+2026-05-14 06:54:56,267 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-14 06:54:56,268 - __main__ - INFO - Starting in GUI mode
+2026-05-14 06:54:56,387 - features.conversation - INFO - Greeting provided
+2026-05-14 06:54:56,394 - features.time_date - INFO - Retrieved current time: 06:54 AM
+2026-05-14 06:54:56,394 - features.time_date - INFO - Retrieved current date: Thursday, May 14, 2026
+2026-05-14 06:54:57,225 - features.weather - INFO - Weather service available: True
+2026-05-14 06:54:57,227 - features.notes - INFO - Listed 0 notes
+2026-05-14 06:54:57,229 - features.reminders - INFO - Listed 0 reminders
+2026-05-14 06:54:57,505 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-14 06:54:57,506 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-05-14 06:54:57,657 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-14 06:54:57,658 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-14 06:54:57,659 - core.commands - INFO - CommandProcessor initialized
+2026-05-14 06:54:57,659 - gui.assistant_gui - INFO - GUI initialized
+2026-05-14 06:54:57,659 - gui.assistant_gui - INFO - Starting GUI application
+2026-05-14 06:55:11,427 - core.speech_engine - INFO - Recognized: open Google
+2026-05-14 06:55:28,149 - core.commands - INFO - Processing command: open google
+2026-05-14 06:55:28,352 - core.utils - INFO - Opened website: https://www.google.com
+2026-05-14 06:55:28,353 - features.web_browsing - INFO - Opened website: google
+2026-05-14 06:56:02,901 - core.speech_engine - INFO - Recognized: open YouTube
+2026-05-14 06:56:04,414 - core.commands - INFO - Processing command: open youtube
+2026-05-14 06:56:04,483 - core.utils - INFO - Opened website: https://www.youtube.com
+2026-05-14 06:56:04,483 - features.web_browsing - INFO - Opened website: youtube
+2026-05-14 06:57:30,808 - core.speech_engine - INFO - Recognized: music
+2026-05-14 06:57:34,374 - core.commands - INFO - Processing command: music
+2026-05-14 06:57:34,375 - features.conversation - INFO - Chat request: music
+2026-05-14 06:57:34,375 - features.conversation - INFO - Joke provided
+2026-05-14 06:57:49,256 - core.speech_engine - INFO - Recognized: YouTube and play music
+2026-05-14 06:57:51,727 - core.commands - INFO - Processing command: youtube and play music
+2026-05-14 06:57:51,794 - core.utils - INFO - YouTube search: and play music
+2026-05-14 06:57:51,794 - features.web_browsing - INFO - Searched YouTube: and play music
+2026-05-14 06:58:29,437 - core.speech_engine - INFO - Recognized: open YouTube and play music
+2026-05-14 06:58:31,051 - core.commands - INFO - Processing command: open youtube and play music
+2026-05-14 06:58:31,121 - core.utils - INFO - Opened website: https://youtube and play music.com
+2026-05-14 06:58:31,121 - features.web_browsing - INFO - Opened website: youtube and play music
+2026-05-14 06:59:05,575 - core.speech_engine - INFO - Recognized: YouTube and play music
+2026-05-14 06:59:07,090 - core.commands - INFO - Processing command: youtube and play music
+2026-05-14 06:59:07,178 - core.utils - INFO - YouTube search: and play music
+2026-05-14 06:59:07,178 - features.web_browsing - INFO - Searched YouTube: and play music
+2026-05-14 06:59:40,131 - __main__ - INFO - Voice Assistant shutdown complete
+2026-05-14 07:18:04,774 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-14 07:18:04,774 - __main__ - INFO - Starting in Modern GUI mode
+2026-05-14 07:18:04,938 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-14 07:18:04,939 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-05-14 07:18:05,098 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-14 07:18:05,100 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-14 07:18:05,100 - core.commands - INFO - CommandProcessor initialized
+2026-05-14 07:18:05,402 - gui.modern_gui - INFO - Background listening started
+2026-05-14 07:18:05,403 - gui.modern_gui - INFO - Modern GUI initialized
+2026-05-14 07:18:05,403 - gui.modern_gui - INFO - Starting Modern GUI application
+2026-05-14 07:18:19,442 - core.speech_engine - INFO - Recognized: open YouTube
+2026-05-14 07:18:25,436 - core.speech_engine - INFO - Recognized: open YouTube
+2026-05-14 07:18:34,452 - core.speech_engine - INFO - Recognized: hello jar
+2026-05-14 07:18:37,738 - core.speech_engine - INFO - Recognized: open YouTube
+2026-05-14 07:23:36,741 - core.speech_engine - INFO - Recognized: open YouTube
+2026-05-14 07:23:59,984 - core.speech_engine - INFO - Recognized: hey Jarvis open YouTube
+2026-05-14 07:23:59,984 - core.speech_engine - INFO - Recognized: hey Jarvis open YouTube
+2026-05-14 07:23:59,988 - core.commands - INFO - Processing command: open youtube
+2026-05-14 07:23:59,990 - core.commands - INFO - Processing command: open youtube
+2026-05-14 07:24:00,263 - core.utils - INFO - Opened website: https://www.youtube.com
+2026-05-14 07:24:00,263 - features.web_browsing - INFO - Opened website: youtube
+2026-05-14 07:24:00,264 - gui.modern_gui - INFO - Executed: open youtube -> Opening youtube
+2026-05-14 07:24:00,292 - core.utils - INFO - Opened website: https://www.youtube.com
+2026-05-14 07:24:00,292 - features.web_browsing - INFO - Opened website: youtube
+2026-05-14 07:24:00,293 - core.speech_engine - ERROR - Error in TTS thread: run loop already started
+2026-05-14 07:24:00,293 - gui.modern_gui - INFO - Executed: open youtube -> Opening youtube
+2026-05-14 07:24:29,675 - core.speech_engine - INFO - Recognized: hey Jarvis open YouTube
+2026-05-14 07:24:29,685 - core.commands - INFO - Processing command: open youtube
+2026-05-14 07:24:29,794 - core.utils - INFO - Opened website: https://www.youtube.com
+2026-05-14 07:24:29,794 - features.web_browsing - INFO - Opened website: youtube
+2026-05-14 07:24:29,795 - gui.modern_gui - INFO - Executed: open youtube -> Opening youtube
+2026-05-14 07:24:31,138 - core.speech_engine - INFO - Recognized: hey Jarvis open YouTube and play music
+2026-05-14 07:24:31,141 - core.commands - INFO - Processing command: open youtube and play music
+2026-05-14 07:24:31,209 - core.utils - INFO - Opened website: https://youtube and play music.com
+2026-05-14 07:24:31,210 - features.web_browsing - INFO - Opened website: youtube and play music
+2026-05-14 07:24:31,210 - gui.modern_gui - INFO - Executed: open youtube and play music -> Opening youtube and play music
+2026-05-14 07:24:56,746 - core.speech_engine - INFO - Recognized: hey Jarvis
+2026-05-14 07:24:56,753 - core.commands - INFO - Processing command: hey jarvis
+2026-05-14 07:24:56,757 - features.conversation - INFO - Greeting provided
+2026-05-14 07:24:56,758 - gui.modern_gui - INFO - Executed: hey jarvis -> Hello! How can I assist you today?
+2026-05-14 07:24:58,405 - core.speech_engine - INFO - Recognized: open Google
+2026-05-14 07:24:58,411 - core.commands - INFO - Processing command: open google
+2026-05-14 07:24:58,412 - features.conversation - INFO - Confused response provided
+2026-05-14 07:24:58,413 - gui.modern_gui - INFO - Executed: open google -> I don't understand. Could you clarify?
+2026-05-14 07:25:03,685 - core.speech_engine - INFO - Recognized: and open YouTube and play
+2026-05-14 07:25:13,829 - core.speech_engine - INFO - Recognized: Hai Jarvis open YouTube
+2026-05-14 07:25:13,835 - core.commands - INFO - Processing command: open youtube
+2026-05-14 07:25:13,915 - core.utils - INFO - Opened website: https://www.youtube.com
+2026-05-14 07:25:13,915 - features.web_browsing - INFO - Opened website: youtube
+2026-05-14 07:25:13,916 - gui.modern_gui - INFO - Executed: open youtube -> Opening youtube
+2026-05-14 07:25:14,675 - core.speech_engine - INFO - Recognized: open YouTube and play music
+2026-05-14 07:25:14,678 - core.commands - INFO - Processing command: open youtube and play music
+2026-05-14 07:25:14,747 - core.utils - INFO - Opened website: https://youtube and play music.com
+2026-05-14 07:25:14,747 - features.web_browsing - INFO - Opened website: youtube and play music
+2026-05-14 07:25:14,748 - gui.modern_gui - INFO - Executed: open youtube and play music -> Opening youtube and play music
+2026-05-14 07:25:52,282 - core.speech_engine - INFO - Recognized: Jab Tak Hai Jaan
+2026-05-14 07:25:52,469 - core.speech_engine - INFO - Recognized: play music Jab Tak Hai Jaan
+2026-05-14 07:25:52,471 - core.commands - INFO - Processing command: play music jab tak hai jaan
+2026-05-14 07:25:52,471 - features.conversation - INFO - Confused response provided
+2026-05-14 07:25:52,471 - gui.modern_gui - INFO - Executed: play music jab tak hai jaan -> I'm not sure what you mean. Could you please repeat that?
+2026-05-14 07:26:01,247 - core.speech_engine - INFO - Recognized: music
+2026-05-14 07:26:11,059 - core.speech_engine - INFO - Recognized: play on YouTube
+2026-05-14 07:26:11,366 - core.speech_engine - INFO - Recognized: Bahrain song play on YouTube
+2026-05-14 07:26:11,368 - core.commands - INFO - Processing command: bahrain song play on youtube
+2026-05-14 07:26:11,381 - core.commands - ERROR - Error processing command: cannot access local variable 'search_youtube_command' where it is not associated with a value
+2026-05-14 07:26:11,382 - gui.modern_gui - INFO - Executed: bahrain song play on youtube -> Sorry, an error occurred while processing your command.
+2026-05-14 07:26:48,174 - core.speech_engine - INFO - Recognized: YouTube and play music Tu Hi Hai
+2026-05-14 07:26:48,179 - core.commands - INFO - Processing command: youtube and play music tu hi hai
+2026-05-14 07:26:48,180 - features.conversation - INFO - Greeting provided
+2026-05-14 07:26:48,181 - gui.modern_gui - INFO - Executed: youtube and play music tu hi hai -> Hey! What do you need help with?
+2026-05-14 07:27:00,563 - core.speech_engine - INFO - Recognized: open YouTube and play bahren
+2026-05-14 07:27:00,711 - core.speech_engine - INFO - Recognized: open YouTube and play bahrin
+2026-05-14 07:27:00,714 - core.commands - INFO - Processing command: open youtube and play bahrin
+2026-05-14 07:27:00,795 - core.utils - INFO - Opened website: https://youtube and play bahrin.com
+2026-05-14 07:27:00,796 - features.web_browsing - INFO - Opened website: youtube and play bahrin
+2026-05-14 07:27:00,797 - gui.modern_gui - INFO - Executed: open youtube and play bahrin -> Opening youtube and play bahrin
+2026-05-14 07:27:29,690 - core.speech_engine - INFO - Recognized: open YouTube and play
+2026-05-14 07:27:31,227 - core.speech_engine - INFO - Recognized: YouTube and play Bahrain music
+2026-05-14 07:27:31,229 - core.commands - INFO - Processing command: youtube and play bahrain music
+2026-05-14 07:27:31,229 - core.commands - ERROR - Error processing command: cannot access local variable 'search_youtube_command' where it is not associated with a value
+2026-05-14 07:27:31,230 - gui.modern_gui - INFO - Executed: youtube and play bahrain music -> Sorry, an error occurred while processing your command.
+2026-05-14 07:27:38,975 - core.speech_engine - INFO - Recognized: and play brain music
+2026-05-14 07:27:42,706 - core.speech_engine - INFO - Recognized: and play brain
+2026-05-14 07:27:42,707 - core.speech_engine - INFO - Recognized: and play BA
+2026-05-14 07:27:42,711 - core.commands - INFO - Processing command: and play brain
+2026-05-14 07:27:42,714 - features.conversation - INFO - Chat request: and play brain
+2026-05-14 07:27:42,715 - features.conversation - INFO - Joke provided
+2026-05-14 07:27:42,716 - gui.modern_gui - INFO - Executed: and play brain -> That's interesting! Tell me more about that.
+2026-05-14 07:27:50,482 - core.speech_engine - INFO - Recognized: YouTube
+2026-05-14 07:27:53,535 - gui.modern_gui - INFO - Shutting down assistant
+2026-05-14 07:27:53,538 - __main__ - INFO - Voice Assistant shutdown complete
+2026-05-14 07:29:32,196 - features.conversation - INFO - Farewell provided
+2026-05-14 07:29:32,196 - __main__ - INFO - Interrupted by user
+2026-05-14 07:29:32,196 - __main__ - INFO - Voice Assistant shutdown complete
+2026-05-14 07:29:32,777 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-14 07:29:32,777 - __main__ - INFO - Starting in interactive mode
+2026-05-14 07:29:32,824 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-14 07:29:32,825 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-05-14 07:29:32,973 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-14 07:29:32,973 - core.commands - INFO - CommandProcessor initialized
+2026-05-14 07:29:32,975 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-14 07:29:32,975 - features.conversation - INFO - Greeting provided
+2026-05-14 07:29:36,003 - core.commands - INFO - Processing command: c:\users\lenovo\appdata\local\programs\python\python313\python.exe "c:/users/lenovo/desktop/voice assistance/main.py"
+2026-05-14 07:29:36,003 - features.conversation - INFO - Chat request: c:\users\lenovo\appdata\local\programs\python\python313\python.exe "c:/users/lenovo/desktop/voice assistance/main.py"
+2026-05-14 07:29:36,004 - features.conversation - INFO - Joke provided
+2026-05-14 07:29:40,895 - core.commands - INFO - Processing command: c:\users\lenovo\appdata\local\programs\python\python313\python.exe "c:/users/lenovo/desktop/voice assistance/main.py"
+2026-05-14 07:29:40,896 - features.conversation - INFO - Chat request: c:\users\lenovo\appdata\local\programs\python\python313\python.exe "c:/users/lenovo/desktop/voice assistance/main.py"
+2026-05-14 07:29:40,897 - features.conversation - INFO - Joke provided
+2026-05-14 07:29:40,898 - core.speech_engine - ERROR - Error in TTS thread: run loop already started
+2026-05-16 11:55:21,769 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-16 11:55:21,770 - __main__ - INFO - Starting in Modern GUI mode
+2026-05-16 11:55:22,014 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-16 11:55:22,014 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-05-16 11:55:22,199 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-16 11:55:22,202 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-16 11:55:22,202 - core.commands - INFO - CommandProcessor initialized
+2026-05-16 11:55:22,590 - gui.modern_gui - INFO - Background listening started
+2026-05-16 11:55:22,591 - gui.modern_gui - INFO - Modern GUI initialized
+2026-05-16 11:55:22,591 - gui.modern_gui - INFO - Starting Modern GUI application
+2026-05-16 11:55:33,814 - core.speech_engine - INFO - Recognized: open
+2026-05-16 11:55:33,817 - core.commands - INFO - Processing command: open
+2026-05-16 11:55:33,817 - features.conversation - INFO - Confused response provided
+2026-05-16 11:55:33,818 - gui.modern_gui - INFO - Executed: open -> I don't understand. Could you clarify?
+2026-05-16 11:55:33,911 - core.speech_engine - INFO - Recognized: open
+2026-05-16 11:55:42,622 - core.speech_engine - INFO - Recognized: let's play music
+2026-05-16 11:55:42,677 - core.speech_engine - INFO - Recognized: let's play music
+2026-05-16 11:55:42,681 - core.commands - INFO - Processing command: let's play music
+2026-05-16 11:55:42,686 - features.music - INFO - Found 0 music files
+2026-05-16 11:55:42,687 - features.conversation - INFO - Confused response provided
+2026-05-16 11:55:42,687 - gui.modern_gui - INFO - Executed: let's play music -> I'm not sure what you mean. Could you please repeat that?
+2026-05-16 11:56:12,551 - core.speech_engine - INFO - Recognized: open YouTube and play music
+2026-05-16 11:56:12,556 - core.commands - INFO - Processing command: open youtube and play music
+2026-05-16 11:56:12,708 - core.utils - INFO - Opened website: https://youtube and play music.com
+2026-05-16 11:56:12,709 - features.web_browsing - INFO - Opened website: youtube and play music
+2026-05-16 11:56:12,711 - gui.modern_gui - INFO - Executed: open youtube and play music -> Opening youtube and play music
+2026-05-16 11:56:39,903 - core.speech_engine - INFO - Recognized: open YouTube and play
+2026-05-16 11:56:40,600 - core.speech_engine - INFO - Recognized: open YouTube and play Tere
+2026-05-16 11:56:40,602 - core.commands - INFO - Processing command: open youtube and play tere
+2026-05-16 11:56:40,692 - core.utils - INFO - Opened website: https://youtube and play tere.com
+2026-05-16 11:56:40,693 - features.web_browsing - INFO - Opened website: youtube and play tere
+2026-05-16 11:56:40,693 - gui.modern_gui - INFO - Executed: open youtube and play tere -> Opening youtube and play tere
+2026-05-16 11:56:59,242 - core.speech_engine - INFO - Recognized: tell me the time and date
+2026-05-16 11:56:59,247 - core.commands - INFO - Processing command: tell me the time and date
+2026-05-16 11:56:59,248 - features.time_date - INFO - Retrieved current time: 11:56 AM
+2026-05-16 11:56:59,249 - gui.modern_gui - INFO - Executed: tell me the time and date -> The current time is 11:56 AM
+2026-05-16 11:56:59,337 - core.speech_engine - INFO - Recognized: tell me the time and date
+2026-05-16 12:00:05,331 - gui.modern_gui - INFO - Shutting down assistant
+2026-05-16 12:00:05,332 - __main__ - INFO - Voice Assistant shutdown complete
+2026-05-16 12:00:55,655 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-16 12:00:55,655 - __main__ - INFO - Starting in Modern GUI mode
+2026-05-16 12:00:55,955 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-16 12:00:55,955 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-05-16 12:00:56,146 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-16 12:00:56,148 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-16 12:00:56,148 - core.commands - INFO - CommandProcessor initialized
+2026-05-16 12:00:56,420 - gui.modern_gui - INFO - Background listening started
+2026-05-16 12:00:56,421 - gui.modern_gui - INFO - Modern GUI initialized
+2026-05-16 12:00:56,421 - gui.modern_gui - INFO - Starting Modern GUI application
+2026-05-16 12:01:03,811 - core.speech_engine - INFO - Recognized: open YouTube
+2026-05-16 12:01:03,816 - core.commands - INFO - Processing command: open youtube
+2026-05-16 12:01:04,044 - core.utils - INFO - Opened website: https://www.youtube.com
+2026-05-16 12:01:04,045 - features.web_browsing - INFO - Opened website: youtube
+2026-05-16 12:01:04,047 - gui.modern_gui - INFO - Executed: open youtube -> Opening youtube
+2026-05-16 12:01:21,276 - core.speech_engine - INFO - Recognized: play song
+2026-05-16 12:01:21,281 - core.commands - INFO - Processing command: play song
+2026-05-16 12:01:21,282 - features.conversation - INFO - Confused response provided
+2026-05-16 12:01:21,284 - gui.modern_gui - INFO - Executed: play song -> Sorry, I didn't quite catch that. Can you say it again?
+2026-05-16 12:01:32,924 - core.speech_engine - INFO - Recognized: play
+2026-05-16 12:01:32,929 - core.commands - INFO - Processing command: play
+2026-05-16 12:01:32,929 - features.conversation - INFO - Chat request: play
+2026-05-16 12:01:32,930 - features.conversation - INFO - Joke provided
+2026-05-16 12:01:32,930 - gui.modern_gui - INFO - Executed: play -> That's interesting! Tell me more about that.
+2026-05-16 12:01:40,272 - core.speech_engine - INFO - Recognized: play music
+2026-05-16 12:01:40,278 - core.commands - INFO - Processing command: play music
+2026-05-16 12:01:40,279 - features.conversation - INFO - Confused response provided
+2026-05-16 12:01:40,280 - gui.modern_gui - INFO - Executed: play music -> I'm not sure what you mean. Could you please repeat that?
+2026-05-16 12:01:49,263 - gui.modern_gui - INFO - Shutting down assistant
+2026-05-16 12:01:49,263 - __main__ - INFO - Voice Assistant shutdown complete
+2026-05-16 12:02:32,730 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-16 12:02:32,730 - __main__ - INFO - Starting in Modern GUI mode
+2026-05-16 12:02:32,901 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-16 12:02:32,901 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-05-16 12:02:33,058 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-16 12:02:33,060 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-16 12:02:33,061 - core.commands - INFO - CommandProcessor initialized
+2026-05-16 12:02:33,320 - gui.modern_gui - INFO - Background listening started
+2026-05-16 12:02:33,320 - gui.modern_gui - INFO - Modern GUI initialized
+2026-05-16 12:02:33,320 - gui.modern_gui - INFO - Starting Modern GUI application
+2026-05-16 12:02:37,724 - core.speech_engine - INFO - Recognized: play music
+2026-05-16 12:02:37,735 - core.commands - INFO - Processing command: play music
+2026-05-16 12:02:37,736 - features.conversation - INFO - Confused response provided
+2026-05-16 12:02:37,737 - gui.modern_gui - INFO - Executed: play music -> I don't understand. Could you clarify?
+2026-05-16 12:02:44,396 - core.speech_engine - INFO - Recognized: play
+2026-05-16 12:02:44,400 - core.commands - INFO - Processing command: play
+2026-05-16 12:02:44,400 - features.conversation - INFO - Chat request: play
+2026-05-16 12:02:44,400 - features.conversation - INFO - Joke provided
+2026-05-16 12:02:44,401 - gui.modern_gui - INFO - Executed: play -> That's interesting! Tell me more about that.
+2026-05-16 12:02:54,881 - core.speech_engine - INFO - Recognized: play music
+2026-05-16 12:02:54,885 - core.commands - INFO - Processing command: play music
+2026-05-16 12:02:54,885 - features.conversation - INFO - Confused response provided
+2026-05-16 12:02:54,886 - gui.modern_gui - INFO - Executed: play music -> Hmm, I'm not sure about that. Can you rephrase?
+2026-05-16 12:03:03,680 - core.speech_engine - INFO - Recognized: play music
+2026-05-16 12:03:03,685 - core.commands - INFO - Processing command: play music
+2026-05-16 12:03:03,685 - features.conversation - INFO - Confused response provided
+2026-05-16 12:03:03,686 - gui.modern_gui - INFO - Executed: play music -> I'm not sure what you mean. Could you please repeat that?
+2026-05-16 12:03:09,763 - core.speech_engine - INFO - Recognized: tell me date and time
+2026-05-16 12:03:09,770 - core.commands - INFO - Processing command: tell me date and time
+2026-05-16 12:03:09,770 - features.time_date - INFO - Retrieved current time: 12:03 PM
+2026-05-16 12:03:09,771 - gui.modern_gui - INFO - Executed: tell me date and time -> The current time is 12:03 PM
+2026-05-16 12:03:31,100 - core.speech_engine - INFO - Recognized: open Google
+2026-05-16 12:03:31,103 - core.commands - INFO - Processing command: open google
+2026-05-16 12:03:31,103 - features.conversation - INFO - Confused response provided
+2026-05-16 12:03:31,104 - gui.modern_gui - INFO - Executed: open google -> I'm not sure what you mean. Could you please repeat that?
+2026-05-16 12:03:40,497 - core.speech_engine - INFO - Recognized: open Google
+2026-05-16 12:03:40,501 - core.commands - INFO - Processing command: open google
+2026-05-16 12:03:40,501 - features.conversation - INFO - Confused response provided
+2026-05-16 12:03:40,502 - gui.modern_gui - INFO - Executed: open google -> Sorry, I didn't quite catch that. Can you say it again?
+2026-05-16 12:03:40,600 - core.speech_engine - INFO - Recognized: open Google
+2026-05-16 12:03:40,602 - core.commands - INFO - Processing command: open google
+2026-05-16 12:03:40,602 - features.conversation - INFO - Confused response provided
+2026-05-16 12:03:40,603 - gui.modern_gui - INFO - Executed: open google -> I don't understand. Could you clarify?
+2026-05-16 12:03:47,146 - core.speech_engine - INFO - Recognized: open Google
+2026-05-16 12:03:47,151 - core.commands - INFO - Processing command: open google
+2026-05-16 12:03:47,151 - features.conversation - INFO - Confused response provided
+2026-05-16 12:03:47,152 - gui.modern_gui - INFO - Executed: open google -> Hmm, I'm not sure about that. Can you rephrase?
+2026-05-16 12:03:53,739 - core.speech_engine - INFO - Recognized: Google
+2026-05-16 12:03:53,741 - core.commands - INFO - Processing command: google
+2026-05-16 12:03:53,742 - features.conversation - INFO - Confused response provided
+2026-05-16 12:03:53,743 - gui.modern_gui - INFO - Executed: google -> Hmm, I'm not sure about that. Can you rephrase?
+2026-05-16 12:03:57,606 - gui.modern_gui - INFO - Shutting down assistant
+2026-05-16 12:03:57,606 - __main__ - INFO - Voice Assistant shutdown complete
+2026-05-16 12:11:02,943 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-16 12:11:02,944 - __main__ - INFO - Starting in Modern GUI mode
+2026-05-16 12:11:03,123 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-16 12:11:03,124 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-05-16 12:11:03,281 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-16 12:11:03,282 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-16 12:11:03,283 - core.commands - INFO - CommandProcessor initialized
+2026-05-16 12:11:03,543 - gui.modern_gui - INFO - Background listening started
+2026-05-16 12:11:03,543 - gui.modern_gui - INFO - Modern GUI initialized
+2026-05-16 12:11:03,543 - gui.modern_gui - INFO - Starting Modern GUI application
+2026-05-16 12:11:12,603 - core.speech_engine - INFO - Recognized: play music
+2026-05-16 12:11:12,608 - core.commands - INFO - Processing command: play music
+2026-05-16 12:11:12,608 - features.conversation - INFO - Confused response provided
+2026-05-16 12:11:12,609 - gui.modern_gui - INFO - Executed: play music -> Sorry, I didn't quite catch that. Can you say it again?
+2026-05-16 12:11:20,343 - core.speech_engine - INFO - Recognized: play music
+2026-05-16 12:11:20,350 - core.commands - INFO - Processing command: play music
+2026-05-16 12:11:20,350 - features.conversation - INFO - Confused response provided
+2026-05-16 12:11:20,351 - gui.modern_gui - INFO - Executed: play music -> Hmm, I'm not sure about that. Can you rephrase?
+2026-05-16 12:11:25,932 - core.speech_engine - INFO - Recognized: play music
+2026-05-16 12:11:25,937 - core.commands - INFO - Processing command: play music
+2026-05-16 12:11:25,938 - features.conversation - INFO - Confused response provided
+2026-05-16 12:11:25,939 - gui.modern_gui - INFO - Executed: play music -> Sorry, I didn't quite catch that. Can you say it again?
+2026-05-16 12:11:30,281 - core.speech_engine - INFO - Recognized: open YouTube and play music
+2026-05-16 12:11:30,285 - core.commands - INFO - Processing command: open youtube and play music
+2026-05-16 12:11:31,072 - core.utils - INFO - Opened website: https://www.youtube.com
+2026-05-16 12:11:31,072 - features.web_browsing - INFO - Opened website: youtube
+2026-05-16 12:11:31,073 - gui.modern_gui - INFO - Executed: open youtube and play music -> Opening youtube
+2026-05-16 12:11:53,143 - core.speech_engine - INFO - Recognized: open
+2026-05-16 12:11:53,149 - core.commands - INFO - Processing command: open
+2026-05-16 12:11:53,150 - features.conversation - INFO - Chat request: open
+2026-05-16 12:11:53,150 - features.conversation - INFO - Joke provided
+2026-05-16 12:11:53,151 - gui.modern_gui - INFO - Executed: open -> That's interesting! Tell me more about that.
+2026-05-16 12:12:15,159 - core.speech_engine - INFO - Recognized: date and time
+2026-05-16 12:12:15,162 - core.commands - INFO - Processing command: date and time
+2026-05-16 12:12:15,163 - features.time_date - INFO - Retrieved current time: 12:12 PM
+2026-05-16 12:12:15,163 - gui.modern_gui - INFO - Executed: date and time -> The current time is 12:12 PM
+2026-05-16 12:12:24,358 - gui.modern_gui - INFO - Shutting down assistant
+2026-05-16 12:12:24,358 - __main__ - INFO - Voice Assistant shutdown complete
+2026-05-16 12:15:39,526 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-16 12:15:39,526 - __main__ - INFO - Starting in Modern GUI mode
+2026-05-16 12:15:39,741 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-16 12:15:39,742 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-05-16 12:15:39,921 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-16 12:15:39,923 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-16 12:15:39,923 - core.commands - INFO - CommandProcessor initialized
+2026-05-16 12:15:40,209 - gui.modern_gui - INFO - Background listening started
+2026-05-16 12:15:40,209 - gui.modern_gui - INFO - Modern GUI initialized
+2026-05-16 12:15:40,210 - gui.modern_gui - INFO - Starting Modern GUI application
+2026-05-16 12:15:45,283 - core.speech_engine - INFO - Recognized: play music
+2026-05-16 12:15:45,290 - core.commands - INFO - Processing command: play music
+2026-05-16 12:15:45,350 - features.music - INFO - Found 0 music files
+2026-05-16 12:15:45,351 - gui.modern_gui - INFO - Executed: play music -> Opening YouTube to play music
+2026-05-16 12:16:00,796 - core.speech_engine - INFO - Recognized: why you are not open
+2026-05-16 12:16:00,802 - core.commands - INFO - Processing command: why you are not open
+2026-05-16 12:16:00,803 - features.conversation - INFO - Chat request: why you are not open
+2026-05-16 12:16:00,803 - features.conversation - INFO - Joke provided
+2026-05-16 12:16:00,804 - gui.modern_gui - INFO - Executed: why you are not open -> That's interesting! Tell me more about that.
+2026-05-16 12:16:22,417 - core.speech_engine - INFO - Recognized: opening YouTube to play music
+2026-05-16 12:16:22,420 - core.commands - INFO - Processing command: opening youtube to play music
+2026-05-16 12:16:22,431 - features.music - INFO - Found 0 music files
+2026-05-16 12:16:22,431 - gui.modern_gui - INFO - Executed: opening youtube to play music -> Opening YouTube to play music
+2026-05-16 12:16:37,581 - core.speech_engine - INFO - Recognized: play music Bahrain
+2026-05-16 12:16:37,586 - core.commands - INFO - Processing command: play music bahrain
+2026-05-16 12:16:37,602 - features.music - INFO - Found 0 music files
+2026-05-16 12:16:37,602 - gui.modern_gui - INFO - Executed: play music bahrain -> Opening YouTube to play music
+2026-05-16 12:16:46,118 - core.speech_engine - INFO - Recognized: open Google
+2026-05-16 12:16:46,122 - core.commands - INFO - Processing command: open google
+2026-05-16 12:16:46,326 - core.utils - INFO - Opened website: https://www.google.com
+2026-05-16 12:16:46,326 - features.web_browsing - INFO - Opened website: google
+2026-05-16 12:16:46,327 - gui.modern_gui - INFO - Executed: open google -> Opening google
+2026-05-16 12:16:55,348 - core.speech_engine - INFO - Recognized: tell me date and time
+2026-05-16 12:16:55,354 - core.commands - INFO - Processing command: tell me date and time
+2026-05-16 12:16:55,355 - features.time_date - INFO - Retrieved current time: 12:16 PM
+2026-05-16 12:16:55,356 - gui.modern_gui - INFO - Executed: tell me date and time -> The current time is 12:16 PM
+2026-05-16 12:17:09,522 - core.speech_engine - INFO - Recognized: tell me a date and time
+2026-05-16 12:17:09,528 - core.commands - INFO - Processing command: tell me a date and time
+2026-05-16 12:17:09,528 - features.time_date - INFO - Retrieved current time: 12:17 PM
+2026-05-16 12:17:09,529 - gui.modern_gui - INFO - Executed: tell me a date and time -> The current time is 12:17 PM
+2026-05-16 12:17:19,151 - core.speech_engine - INFO - Recognized: I cannot
+2026-05-16 12:17:19,155 - core.commands - INFO - Processing command: i cannot
+2026-05-16 12:17:19,155 - features.conversation - INFO - Chat request: i cannot
+2026-05-16 12:17:19,155 - features.conversation - INFO - Joke provided
+2026-05-16 12:17:19,156 - gui.modern_gui - INFO - Executed: i cannot -> That's interesting! Tell me more about that.
+2026-05-16 12:17:36,198 - core.speech_engine - INFO - Recognized: open YouTube
+2026-05-16 12:17:36,204 - core.commands - INFO - Processing command: open youtube
+2026-05-16 12:17:36,275 - core.utils - INFO - Opened website: https://www.youtube.com
+2026-05-16 12:17:36,275 - features.web_browsing - INFO - Opened website: youtube
+2026-05-16 12:17:36,276 - gui.modern_gui - INFO - Executed: open youtube -> Opening youtube
+2026-05-16 12:18:04,748 - gui.modern_gui - INFO - Shutting down assistant
+2026-05-16 12:18:04,749 - __main__ - INFO - Voice Assistant shutdown complete
+2026-05-17 10:00:14,191 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-17 10:00:14,193 - __main__ - INFO - Starting in Modern GUI mode
+2026-05-17 10:00:14,404 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-17 10:00:14,406 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-05-17 10:00:14,567 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-17 10:00:14,568 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-17 10:00:14,569 - core.commands - INFO - CommandProcessor initialized
+2026-05-17 10:00:14,914 - gui.modern_gui - INFO - Background listening started
+2026-05-17 10:00:14,914 - gui.modern_gui - INFO - Modern GUI initialized
+2026-05-17 10:00:14,914 - gui.modern_gui - INFO - Starting Modern GUI application
+2026-05-17 10:01:08,684 - gui.modern_gui - INFO - Shutting down assistant
+2026-05-17 10:01:08,685 - __main__ - INFO - Voice Assistant shutdown complete
+2026-05-17 10:02:47,208 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-17 10:02:47,209 - __main__ - INFO - Starting in Modern GUI mode
+2026-05-17 10:02:47,386 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-17 10:02:47,387 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-05-17 10:02:47,559 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-17 10:02:47,561 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-17 10:02:47,561 - core.commands - INFO - CommandProcessor initialized
+2026-05-17 10:02:47,802 - gui.modern_gui - INFO - Background listening started
+2026-05-17 10:02:47,802 - gui.modern_gui - INFO - Modern GUI initialized
+2026-05-17 10:02:47,802 - gui.modern_gui - INFO - Starting Modern GUI application
+2026-05-17 10:03:00,864 - gui.modern_gui - INFO - Shutting down assistant
+2026-05-17 10:03:00,865 - __main__ - INFO - Voice Assistant shutdown complete
+2026-05-17 10:04:23,372 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-17 10:04:23,373 - __main__ - INFO - Starting in interactive mode
+2026-05-17 10:04:23,434 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-17 10:04:23,434 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-05-17 10:04:23,616 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-17 10:04:23,616 - core.commands - INFO - CommandProcessor initialized
+2026-05-17 10:04:23,618 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-17 10:04:23,618 - features.conversation - INFO - Greeting provided
+2026-05-17 10:04:39,119 - core.commands - INFO - Processing command: what is the time
+2026-05-17 10:04:39,120 - features.time_date - INFO - Retrieved current time: 10:04 AM
+2026-05-17 10:04:46,907 - core.commands - INFO - Processing command: play music
+2026-05-17 10:04:46,922 - features.music - INFO - Found 0 music files
+2026-05-17 10:04:47,138 - core.utils - INFO - YouTube search: music
+2026-05-17 10:04:47,138 - features.web_browsing - INFO - Searched YouTube: music
+2026-05-17 10:04:54,913 - core.commands - INFO - Processing command: open google
+2026-05-17 10:04:55,160 - core.utils - INFO - Opened website: https://www.google.com
+2026-05-17 10:04:55,161 - features.web_browsing - INFO - Opened website: google
+2026-05-17 10:05:02,777 - core.commands - INFO - Processing command: tell me date and time
+2026-05-17 10:05:02,777 - features.time_date - INFO - Retrieved date and time: Sunday, May 17, 2026, 10:05 AM
+2026-05-17 10:05:11,341 - features.conversation - INFO - Farewell provided
+2026-05-17 10:05:11,443 - __main__ - INFO - User exited application
+2026-05-17 10:05:11,447 - __main__ - INFO - Voice Assistant shutdown complete
+2026-05-17 10:06:13,056 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-17 10:06:13,057 - __main__ - INFO - Starting in Modern GUI mode
+2026-05-17 10:06:13,239 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-17 10:06:13,240 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-05-17 10:06:13,403 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-17 10:06:13,405 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-17 10:06:13,405 - core.commands - INFO - CommandProcessor initialized
+2026-05-17 10:06:13,984 - gui.modern_gui - INFO - Background listening started
+2026-05-17 10:06:13,984 - gui.modern_gui - INFO - Modern GUI initialized
+2026-05-17 10:06:13,985 - gui.modern_gui - INFO - Starting Modern GUI application
+2026-05-17 10:26:17,086 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-17 10:26:17,087 - __main__ - INFO - Starting in Modern GUI mode
+2026-05-17 10:26:17,432 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-17 10:26:17,432 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-05-17 10:26:17,708 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-17 10:26:17,712 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-17 10:26:17,712 - core.commands - INFO - CommandProcessor initialized
+2026-05-17 10:26:18,193 - gui.modern_gui - INFO - Background listening started
+2026-05-17 10:26:18,194 - gui.modern_gui - INFO - Modern GUI initialized
+2026-05-17 10:26:18,194 - gui.modern_gui - INFO - Starting Modern GUI application
+2026-05-17 10:26:51,060 - core.speech_engine - INFO - Recognized: open YouTube
+2026-05-17 10:26:51,072 - core.commands - INFO - Processing command: open youtube
+2026-05-17 10:26:51,455 - core.utils - INFO - Opened website: https://www.youtube.com
+2026-05-17 10:26:51,456 - features.web_browsing - INFO - Opened website: youtube
+2026-05-17 10:26:51,457 - gui.modern_gui - INFO - Executed: open youtube -> Opening youtube
+2026-05-17 10:27:16,701 - core.speech_engine - INFO - Recognized: play the believer
+2026-05-17 10:27:16,713 - core.commands - INFO - Processing command: play the believer
+2026-05-17 10:27:16,861 - core.utils - INFO - YouTube search: the believer
+2026-05-17 10:27:16,861 - features.web_browsing - INFO - Searched YouTube: the believer
+2026-05-17 10:27:16,863 - gui.modern_gui - INFO - Executed: play the believer -> Opening YouTube and searching for the believer
+2026-05-17 10:27:43,163 - core.speech_engine - INFO - Recognized: open GitHub
+2026-05-17 10:27:43,174 - core.commands - INFO - Processing command: open github
+2026-05-17 10:27:43,328 - core.utils - INFO - Opened website: https://www.github.com
+2026-05-17 10:27:43,328 - features.web_browsing - INFO - Opened website: github
+2026-05-17 10:27:43,329 - gui.modern_gui - INFO - Executed: open github -> Opening github
+2026-05-17 10:27:58,980 - core.speech_engine - INFO - Recognized: open YouTube
+2026-05-17 10:27:58,991 - core.commands - INFO - Processing command: open youtube
+2026-05-17 10:27:59,154 - core.utils - INFO - Opened website: https://www.youtube.com
+2026-05-17 10:27:59,154 - features.web_browsing - INFO - Opened website: youtube
+2026-05-17 10:27:59,156 - gui.modern_gui - INFO - Executed: open youtube -> Opening youtube
+2026-05-17 10:28:07,756 - core.speech_engine - INFO - Recognized: open Google
+2026-05-17 10:28:07,764 - core.commands - INFO - Processing command: open google
+2026-05-17 10:28:07,896 - core.utils - INFO - Opened website: https://www.google.com
+2026-05-17 10:28:07,897 - features.web_browsing - INFO - Opened website: google
+2026-05-17 10:28:07,898 - gui.modern_gui - INFO - Executed: open google -> Opening google
+2026-05-17 10:28:16,147 - core.speech_engine - INFO - Recognized: open Wikipedia
+2026-05-17 10:28:16,165 - core.commands - INFO - Processing command: open wikipedia
+2026-05-17 10:28:16,292 - core.utils - INFO - Opened website: https://www.wikipedia.org
+2026-05-17 10:28:16,293 - features.web_browsing - INFO - Opened website: wikipedia
+2026-05-17 10:28:16,295 - gui.modern_gui - INFO - Executed: open wikipedia -> Opening wikipedia
+2026-05-17 10:28:24,753 - core.speech_engine - INFO - Recognized: tell me today date
+2026-05-17 10:28:24,764 - core.commands - INFO - Processing command: tell me today date
+2026-05-17 10:28:24,770 - features.time_date - INFO - Retrieved current date: Sunday, May 17, 2026
+2026-05-17 10:28:24,773 - gui.modern_gui - INFO - Executed: tell me today date -> Today is Sunday, Sunday, May 17, 2026
+2026-05-17 10:28:45,623 - core.speech_engine - INFO - Recognized: open Google
+2026-05-17 10:28:45,644 - core.commands - INFO - Processing command: open google
+2026-05-17 10:28:45,760 - core.utils - INFO - Opened website: https://www.google.com
+2026-05-17 10:28:45,761 - features.web_browsing - INFO - Opened website: google
+2026-05-17 10:28:45,762 - gui.modern_gui - INFO - Executed: open google -> Opening google
+2026-05-17 10:28:59,302 - core.speech_engine - INFO - Recognized: open weather
+2026-05-17 10:28:59,315 - core.commands - INFO - Processing command: open weather
+2026-05-17 10:28:59,433 - core.utils - INFO - Opened website: https://weather.com
+2026-05-17 10:28:59,434 - features.web_browsing - INFO - Opened website: weather
+2026-05-17 10:28:59,435 - gui.modern_gui - INFO - Executed: open weather -> Opening weather
+2026-05-17 10:29:38,299 - core.speech_engine - INFO - Recognized: Ramana
+2026-05-17 10:29:38,305 - core.commands - INFO - Processing command: ramana
+2026-05-17 10:29:38,306 - features.conversation - INFO - Chat request: ramana
+2026-05-17 10:29:38,306 - features.conversation - INFO - Joke provided
+2026-05-17 10:29:38,307 - gui.modern_gui - INFO - Executed: ramana -> That's interesting! Tell me more about that.
+2026-05-17 10:29:52,720 - core.speech_engine - INFO - Recognized: open YouTube and play the
+2026-05-17 10:29:52,727 - core.commands - INFO - Processing command: open youtube and play the
+2026-05-17 10:29:52,827 - core.utils - INFO - Opened website: https://www.youtube.com
+2026-05-17 10:29:52,827 - features.web_browsing - INFO - Opened website: youtube
+2026-05-17 10:29:52,828 - gui.modern_gui - INFO - Executed: open youtube and play the -> Opening youtube
+2026-05-17 10:30:11,361 - core.speech_engine - INFO - Recognized: play the believer music
+2026-05-17 10:30:11,373 - core.commands - INFO - Processing command: play the believer music
+2026-05-17 10:30:11,469 - core.utils - INFO - YouTube search: the believer music
+2026-05-17 10:30:11,469 - features.web_browsing - INFO - Searched YouTube: the believer music
+2026-05-17 10:30:11,471 - gui.modern_gui - INFO - Executed: play the believer music -> Opening YouTube and searching for the believer music
+2026-05-17 10:30:58,558 - core.speech_engine - INFO - Recognized: open YouTube and play the believer music
+2026-05-17 10:30:58,563 - core.commands - INFO - Processing command: open youtube and play the believer music
+2026-05-17 10:30:58,669 - core.utils - INFO - Opened website: https://www.youtube.com
+2026-05-17 10:30:58,670 - features.web_browsing - INFO - Opened website: youtube
+2026-05-17 10:30:58,671 - gui.modern_gui - INFO - Executed: open youtube and play the believer music -> Opening youtube
+2026-05-17 10:31:11,916 - core.speech_engine - INFO - Recognized: play the believer music
+2026-05-17 10:31:11,937 - core.commands - INFO - Processing command: play the believer music
+2026-05-17 10:31:12,051 - core.utils - INFO - YouTube search: the believer music
+2026-05-17 10:31:12,053 - features.web_browsing - INFO - Searched YouTube: the believer music
+2026-05-17 10:31:12,054 - gui.modern_gui - INFO - Executed: play the believer music -> Opening YouTube and searching for the believer music
+2026-05-17 10:31:25,719 - core.speech_engine - INFO - Recognized: open weather prediction
+2026-05-17 10:31:25,743 - core.commands - INFO - Processing command: open weather prediction
+2026-05-17 10:31:25,867 - core.utils - INFO - Opened website: https://weather prediction.com
+2026-05-17 10:31:25,868 - features.web_browsing - INFO - Opened website: weather prediction
+2026-05-17 10:31:25,869 - gui.modern_gui - INFO - Executed: open weather prediction -> Opening weather prediction
+2026-05-17 10:31:59,120 - core.speech_engine - INFO - Recognized: Google open
+2026-05-17 10:31:59,129 - core.commands - INFO - Processing command: google open
+2026-05-17 10:31:59,131 - features.conversation - INFO - Confused response provided
+2026-05-17 10:31:59,137 - gui.modern_gui - INFO - Executed: google open -> I'm not sure what you mean. Could you please repeat that?
+2026-05-17 10:33:29,673 - core.speech_engine - INFO - Recognized: open YouTube and play the believer
+2026-05-17 10:33:29,684 - core.commands - INFO - Processing command: open youtube and play the believer
+2026-05-17 10:33:29,804 - core.utils - INFO - Opened website: https://www.youtube.com
+2026-05-17 10:33:29,804 - features.web_browsing - INFO - Opened website: youtube
+2026-05-17 10:33:29,806 - gui.modern_gui - INFO - Executed: open youtube and play the believer -> Opening youtube
+2026-05-17 10:33:44,218 - core.speech_engine - INFO - Recognized: play the believers music
+2026-05-17 10:33:44,228 - core.commands - INFO - Processing command: play the believers music
+2026-05-17 10:33:44,372 - core.utils - INFO - YouTube search: the believers music
+2026-05-17 10:33:44,372 - features.web_browsing - INFO - Searched YouTube: the believers music
+2026-05-17 10:33:44,374 - gui.modern_gui - INFO - Executed: play the believers music -> Opening YouTube and searching for the believers music
+2026-05-17 10:33:57,017 - core.speech_engine - INFO - Recognized: play muntazir
+2026-05-17 10:33:57,024 - core.commands - INFO - Processing command: play muntazir
+2026-05-17 10:33:57,158 - core.utils - INFO - YouTube search: muntazir
+2026-05-17 10:33:57,159 - features.web_browsing - INFO - Searched YouTube: muntazir
+2026-05-17 10:33:57,161 - gui.modern_gui - INFO - Executed: play muntazir -> Opening YouTube and searching for muntazir
+2026-05-17 10:34:13,548 - core.speech_engine - INFO - Recognized: open GitHub
+2026-05-17 10:34:13,562 - core.commands - INFO - Processing command: open github
+2026-05-17 10:34:13,685 - core.utils - INFO - Opened website: https://www.github.com
+2026-05-17 10:34:13,685 - features.web_browsing - INFO - Opened website: github
+2026-05-17 10:34:13,687 - gui.modern_gui - INFO - Executed: open github -> Opening github
+2026-05-17 10:34:29,176 - core.speech_engine - INFO - Recognized: open Google
+2026-05-17 10:34:29,184 - core.commands - INFO - Processing command: open google
+2026-05-17 10:34:29,329 - core.utils - INFO - Opened website: https://www.google.com
+2026-05-17 10:34:29,329 - features.web_browsing - INFO - Opened website: google
+2026-05-17 10:34:29,331 - gui.modern_gui - INFO - Executed: open google -> Opening google
+2026-05-17 10:34:37,419 - core.speech_engine - INFO - Recognized: open Wikipedia
+2026-05-17 10:34:37,427 - core.commands - INFO - Processing command: open wikipedia
+2026-05-17 10:34:37,542 - core.utils - INFO - Opened website: https://www.wikipedia.org
+2026-05-17 10:34:37,542 - features.web_browsing - INFO - Opened website: wikipedia
+2026-05-17 10:34:37,545 - gui.modern_gui - INFO - Executed: open wikipedia -> Opening wikipedia
+2026-05-17 10:34:47,007 - core.speech_engine - INFO - Recognized: open weather prediction
+2026-05-17 10:34:47,026 - core.commands - INFO - Processing command: open weather prediction
+2026-05-17 10:34:47,137 - core.utils - INFO - Opened website: https://weather prediction.com
+2026-05-17 10:34:47,137 - features.web_browsing - INFO - Opened website: weather prediction
+2026-05-17 10:34:47,140 - gui.modern_gui - INFO - Executed: open weather prediction -> Opening weather prediction
+2026-05-17 10:35:03,342 - core.speech_engine - INFO - Recognized: tell me date and
+2026-05-17 10:35:03,354 - core.commands - INFO - Processing command: tell me date and
+2026-05-17 10:35:03,354 - features.time_date - INFO - Retrieved current date: Sunday, May 17, 2026
+2026-05-17 10:35:03,357 - gui.modern_gui - INFO - Executed: tell me date and -> Today is Sunday, Sunday, May 17, 2026
+2026-05-17 10:35:44,910 - gui.modern_gui - INFO - Shutting down assistant
+2026-05-17 10:35:44,911 - __main__ - INFO - Voice Assistant shutdown complete
+2026-05-17 10:37:14,998 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-17 10:37:14,998 - __main__ - INFO - Starting in Modern GUI mode
+2026-05-17 10:37:15,252 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-17 10:37:15,252 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-05-17 10:37:15,488 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-17 10:37:15,490 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-17 10:37:15,490 - core.commands - INFO - CommandProcessor initialized
+2026-05-17 10:37:15,845 - gui.modern_gui - INFO - Background listening started
+2026-05-17 10:37:15,845 - gui.modern_gui - INFO - Modern GUI initialized
+2026-05-17 10:37:15,845 - gui.modern_gui - INFO - Starting Modern GUI application
+2026-05-17 10:37:29,922 - core.speech_engine - INFO - Recognized: Hai Jarvis open YouTube
+2026-05-17 10:37:29,933 - core.commands - INFO - Processing command: hai jarvis open youtube
+2026-05-17 10:37:30,222 - core.utils - INFO - Opened website: https://www.youtube.com
+2026-05-17 10:37:30,223 - features.web_browsing - INFO - Opened website: youtube
+2026-05-17 10:37:30,224 - gui.modern_gui - INFO - Executed: hai jarvis open youtube -> Opening youtube
+2026-05-17 10:37:39,109 - core.speech_engine - INFO - Recognized: hey
+2026-05-17 10:37:39,128 - core.commands - INFO - Processing command: hey
+2026-05-17 10:37:39,129 - features.conversation - INFO - Greeting provided
+2026-05-17 10:37:39,131 - gui.modern_gui - INFO - Executed: hey -> Greetings! What would you like me to do?
+2026-05-17 10:37:46,798 - core.speech_engine - INFO - Recognized: open Google
+2026-05-17 10:37:46,805 - core.commands - INFO - Processing command: open google
+2026-05-17 10:37:46,967 - core.utils - INFO - Opened website: https://www.google.com
+2026-05-17 10:37:46,967 - features.web_browsing - INFO - Opened website: google
+2026-05-17 10:37:46,971 - gui.modern_gui - INFO - Executed: open google -> Opening google
+2026-05-17 10:37:54,776 - gui.modern_gui - INFO - Shutting down assistant
+2026-05-17 10:37:54,777 - __main__ - INFO - Voice Assistant shutdown complete
+2026-05-17 10:38:01,894 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-17 10:38:01,895 - __main__ - INFO - Starting in Modern GUI mode
+2026-05-17 10:38:02,207 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-17 10:38:02,208 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-05-17 10:38:02,440 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-17 10:38:02,443 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-17 10:38:02,443 - core.commands - INFO - CommandProcessor initialized
+2026-05-17 10:38:02,821 - gui.modern_gui - INFO - Background listening started
+2026-05-17 10:38:02,821 - gui.modern_gui - INFO - Modern GUI initialized
+2026-05-17 10:38:02,821 - gui.modern_gui - INFO - Starting Modern GUI application
+2026-05-17 10:38:08,907 - core.speech_engine - INFO - Recognized: Hai Jarvis open Google
+2026-05-17 10:38:08,914 - core.commands - INFO - Processing command: hai jarvis open google
+2026-05-17 10:38:09,264 - core.utils - INFO - Opened website: https://www.google.com
+2026-05-17 10:38:09,265 - features.web_browsing - INFO - Opened website: google
+2026-05-17 10:38:09,267 - gui.modern_gui - INFO - Executed: hai jarvis open google -> Opening google
+2026-05-17 10:38:16,961 - core.speech_engine - INFO - Recognized: open YouTube
+2026-05-17 10:38:16,967 - core.commands - INFO - Processing command: open youtube
+2026-05-17 10:38:17,084 - core.utils - INFO - Opened website: https://www.youtube.com
+2026-05-17 10:38:17,085 - features.web_browsing - INFO - Opened website: youtube
+2026-05-17 10:38:17,086 - gui.modern_gui - INFO - Executed: open youtube -> Opening youtube
+2026-05-17 10:38:24,084 - gui.modern_gui - INFO - Shutting down assistant
+2026-05-17 10:38:24,088 - __main__ - INFO - Voice Assistant shutdown complete
+2026-05-17 10:38:39,836 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-17 10:38:39,836 - __main__ - INFO - Starting in Modern GUI mode
+2026-05-17 10:38:40,203 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-17 10:38:40,203 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-05-17 10:38:40,422 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-17 10:38:40,427 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-17 10:38:40,428 - core.commands - INFO - CommandProcessor initialized
+2026-05-17 10:38:40,876 - gui.modern_gui - INFO - Background listening started
+2026-05-17 10:38:40,876 - gui.modern_gui - INFO - Modern GUI initialized
+2026-05-17 10:38:40,877 - gui.modern_gui - INFO - Starting Modern GUI application
+2026-05-17 10:38:57,828 - core.speech_engine - INFO - Recognized: tell me today date and time
+2026-05-17 10:38:57,836 - core.commands - INFO - Processing command: tell me today date and time
+2026-05-17 10:38:57,836 - features.time_date - INFO - Retrieved date and time: Sunday, May 17, 2026, 10:38 AM
+2026-05-17 10:38:57,837 - gui.modern_gui - INFO - Executed: tell me today date and time -> Today is Sunday, Sunday, May 17, 2026, and the current time is 10:38 AM
+2026-05-17 10:39:06,009 - core.speech_engine - INFO - Recognized: 2026 and the current time is
+2026-05-17 10:39:06,019 - core.commands - INFO - Processing command: 2026 and the current time is
+2026-05-17 10:39:06,020 - features.time_date - INFO - Retrieved current time: 10:39 AM
+2026-05-17 10:39:06,023 - core.speech_engine - ERROR - Error in TTS thread: run loop already started
+2026-05-17 10:39:06,024 - gui.modern_gui - INFO - Executed: 2026 and the current time is -> The current time is 10:39 AM
+2026-05-17 10:39:15,071 - core.speech_engine - INFO - Recognized: h
+2026-05-17 10:39:23,912 - core.speech_engine - INFO - Recognized: tell me today date and time
+2026-05-17 10:39:23,918 - core.commands - INFO - Processing command: tell me today date and time
+2026-05-17 10:39:23,918 - features.time_date - INFO - Retrieved date and time: Sunday, May 17, 2026, 10:39 AM
+2026-05-17 10:39:23,920 - gui.modern_gui - INFO - Executed: tell me today date and time -> Today is Sunday, Sunday, May 17, 2026, and the current time is 10:39 AM
+2026-05-17 10:39:42,922 - gui.modern_gui - INFO - Shutting down assistant
+2026-05-17 10:39:42,923 - __main__ - INFO - Voice Assistant shutdown complete
+2026-05-18 11:53:00,604 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-18 11:53:00,605 - __main__ - INFO - Starting in interactive mode
+2026-05-18 11:53:00,661 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\Desktop\\voice assistance\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-18 11:53:00,661 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\Desktop\voice assistance\.venv\Lib\site-packages\comtypes\gen'
+2026-05-18 11:53:00,903 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-18 11:53:00,903 - core.commands - INFO - CommandProcessor initialized
+2026-05-18 11:53:00,907 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-18 11:53:00,907 - features.conversation - INFO - Greeting provided
+2026-05-18 11:53:16,752 - core.commands - INFO - Processing command: python main.py --gui
+2026-05-18 11:53:16,753 - features.conversation - INFO - Chat request: python main.py --gui
+2026-05-18 11:53:16,753 - features.conversation - INFO - Joke provided
+2026-05-18 11:53:21,531 - core.commands - INFO - Processing command: python main.py --gui
+2026-05-18 11:53:21,531 - features.conversation - INFO - Chat request: python main.py --gui
+2026-05-18 11:53:21,532 - features.conversation - INFO - Joke provided
+2026-05-18 11:53:45,428 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-18 11:53:45,428 - __main__ - INFO - Starting in interactive mode
+2026-05-18 11:53:45,483 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-18 11:53:45,483 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-05-18 11:53:45,633 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-18 11:53:45,634 - core.commands - INFO - CommandProcessor initialized
+2026-05-18 11:53:45,637 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-18 11:53:45,637 - features.conversation - INFO - Greeting provided
+2026-05-18 11:54:18,639 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-18 11:54:18,640 - __main__ - INFO - Starting in interactive mode
+2026-05-18 11:54:18,693 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-18 11:54:18,694 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-05-18 11:54:18,846 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-18 11:54:18,846 - core.commands - INFO - CommandProcessor initialized
+2026-05-18 11:54:18,848 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-18 11:54:18,849 - features.conversation - INFO - Greeting provided
+2026-05-18 11:55:11,410 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-18 11:55:11,410 - __main__ - INFO - Starting in interactive mode
+2026-05-18 11:55:11,477 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-18 11:55:11,477 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-05-18 11:55:11,626 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-18 11:55:11,627 - core.commands - INFO - CommandProcessor initialized
+2026-05-18 11:55:11,629 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-18 11:55:11,629 - features.conversation - INFO - Greeting provided
+2026-05-18 11:55:19,595 - core.commands - INFO - Processing command: time
+2026-05-18 11:55:19,595 - features.time_date - INFO - Retrieved current time: 11:55 AM
+2026-05-18 11:55:50,114 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-18 11:55:50,114 - __main__ - INFO - Starting in Modern GUI mode
+2026-05-18 11:55:50,323 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-18 11:55:50,324 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-05-18 11:55:50,476 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-18 11:55:50,478 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-18 11:55:50,478 - core.commands - INFO - CommandProcessor initialized
+2026-05-18 11:55:50,746 - gui.modern_gui - INFO - Background listening started
+2026-05-18 11:55:50,746 - gui.modern_gui - INFO - Modern GUI initialized
+2026-05-18 11:55:50,746 - gui.modern_gui - INFO - Starting Modern GUI application
+2026-05-18 11:55:59,297 - core.speech_engine - INFO - Recognized: tell me time and date
+2026-05-18 11:55:59,306 - core.commands - INFO - Processing command: tell me time and date
+2026-05-18 11:55:59,307 - features.time_date - INFO - Retrieved date and time: Monday, May 18, 2026, 11:55 AM
+2026-05-18 11:55:59,308 - gui.modern_gui - INFO - Executed: tell me time and date -> Today is Monday, Monday, May 18, 2026, and the current time is 11:55 AM
+2026-05-18 11:56:25,759 - core.speech_engine - INFO - Recognized: open YouTube
+2026-05-18 11:56:25,765 - core.commands - INFO - Processing command: open youtube
+2026-05-18 11:56:25,957 - core.utils - INFO - Opened website: https://www.youtube.com
+2026-05-18 11:56:25,957 - features.web_browsing - INFO - Opened website: youtube
+2026-05-18 11:56:25,958 - gui.modern_gui - INFO - Executed: open youtube -> Opening youtube
+2026-05-18 11:56:41,681 - core.speech_engine - INFO - Recognized: open Google
+2026-05-18 11:56:41,690 - core.commands - INFO - Processing command: open google
+2026-05-18 11:56:41,770 - core.utils - INFO - Opened website: https://www.google.com
+2026-05-18 11:56:41,771 - features.web_browsing - INFO - Opened website: google
+2026-05-18 11:56:41,771 - gui.modern_gui - INFO - Executed: open google -> Opening google
+2026-05-18 11:56:52,755 - gui.modern_gui - INFO - Shutting down assistant
+2026-05-18 11:56:52,757 - __main__ - INFO - Voice Assistant shutdown complete
+2026-05-18 12:02:02,080 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-18 12:02:02,081 - __main__ - INFO - Starting in Modern GUI mode
+2026-05-18 12:02:02,277 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-18 12:02:02,277 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-05-18 12:02:02,468 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-18 12:02:02,471 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-18 12:02:02,471 - core.commands - INFO - CommandProcessor initialized
+2026-05-18 12:02:02,757 - gui.modern_gui - INFO - Background listening started
+2026-05-18 12:02:02,757 - gui.modern_gui - INFO - Modern GUI initialized
+2026-05-18 12:02:02,758 - gui.modern_gui - INFO - Starting Modern GUI application
+2026-05-18 12:02:10,441 - core.speech_engine - INFO - Recognized: open YouTube
+2026-05-18 12:02:10,447 - core.commands - INFO - Processing command: open youtube
+2026-05-18 12:02:10,635 - core.utils - INFO - Opened website: https://www.youtube.com
+2026-05-18 12:02:10,636 - features.web_browsing - INFO - Opened website: youtube
+2026-05-18 12:02:10,636 - gui.modern_gui - INFO - Executed: open youtube -> Opening youtube
+2026-05-18 12:02:36,148 - core.speech_engine - INFO - Recognized: open
+2026-05-18 12:02:36,166 - core.commands - INFO - Processing command: open
+2026-05-18 12:02:36,167 - features.conversation - INFO - Chat request: open
+2026-05-18 12:02:36,168 - features.conversation - INFO - Joke provided
+2026-05-18 12:02:36,169 - gui.modern_gui - INFO - Executed: open -> That's interesting! Tell me more about that.
+2026-05-18 12:02:49,521 - core.speech_engine - INFO - Recognized: play
+2026-05-18 12:02:49,531 - core.commands - INFO - Processing command: play
+2026-05-18 12:02:49,538 - features.conversation - INFO - Chat request: play
+2026-05-18 12:02:49,539 - features.conversation - INFO - Joke provided
+2026-05-18 12:02:49,540 - gui.modern_gui - INFO - Executed: play -> That's interesting! Tell me more about that.
+2026-05-18 12:03:12,162 - core.speech_engine - INFO - Recognized: open Google
+2026-05-18 12:03:12,167 - core.commands - INFO - Processing command: open google
+2026-05-18 12:03:12,235 - core.utils - INFO - Opened website: https://www.google.com
+2026-05-18 12:03:12,235 - features.web_browsing - INFO - Opened website: google
+2026-05-18 12:03:12,236 - gui.modern_gui - INFO - Executed: open google -> Opening google
+2026-05-18 12:03:35,071 - core.speech_engine - INFO - Recognized: current time
+2026-05-18 12:03:35,077 - core.commands - INFO - Processing command: current time
+2026-05-18 12:03:35,077 - features.time_date - INFO - Retrieved current time: 12:03 PM
+2026-05-18 12:03:35,079 - gui.modern_gui - INFO - Executed: current time -> The current time is 12:03 PM
+2026-05-18 12:03:41,623 - core.speech_engine - INFO - Recognized: tell me date and time
+2026-05-18 12:03:41,631 - core.commands - INFO - Processing command: tell me date and time
+2026-05-18 12:03:41,631 - features.time_date - INFO - Retrieved date and time: Monday, May 18, 2026, 12:03 PM
+2026-05-18 12:03:41,632 - gui.modern_gui - INFO - Executed: tell me date and time -> Today is Monday, Monday, May 18, 2026, and the current time is 12:03 PM
+2026-05-18 12:03:48,732 - gui.modern_gui - INFO - Shutting down assistant
+2026-05-18 12:03:48,739 - __main__ - INFO - Voice Assistant shutdown complete
+2026-05-18 12:05:43,137 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-18 12:05:43,137 - __main__ - INFO - Starting in Modern GUI mode
+2026-05-18 12:05:43,322 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-18 12:05:43,322 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-05-18 12:05:43,482 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-18 12:05:43,484 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-18 12:05:43,484 - core.commands - INFO - CommandProcessor initialized
+2026-05-18 12:05:43,736 - gui.modern_gui - INFO - Background listening started
+2026-05-18 12:05:43,736 - gui.modern_gui - INFO - Modern GUI initialized
+2026-05-18 12:05:43,736 - gui.modern_gui - INFO - Starting Modern GUI application
+2026-05-18 12:05:49,146 - core.speech_engine - INFO - Recognized: tell me date and time
+2026-05-18 12:05:49,154 - core.commands - INFO - Processing command: tell me date and time
+2026-05-18 12:05:49,154 - features.time_date - INFO - Retrieved date and time: Monday, May 18, 2026, 12:05 PM
+2026-05-18 12:05:49,155 - gui.modern_gui - INFO - Executed: tell me date and time -> Today is Monday, Monday, May 18, 2026, and the current time is 12:05 PM
+2026-05-18 12:06:22,057 - core.speech_engine - INFO - Recognized: tell me a joke
+2026-05-18 12:06:22,061 - core.commands - INFO - Processing command: tell me a joke
+2026-05-18 12:06:22,061 - features.conversation - INFO - Chat request: tell me a joke
+2026-05-18 12:06:22,061 - features.conversation - INFO - Joke provided
+2026-05-18 12:06:22,062 - features.conversation - INFO - Pattern matched: tell me a joke
+2026-05-18 12:06:22,062 - gui.modern_gui - INFO - Executed: tell me a joke -> Why do Java developers wear glasses? Because they don't C#.
+2026-05-18 12:06:30,504 - core.speech_engine - INFO - Recognized: open YouTube
+2026-05-18 12:06:30,509 - core.commands - INFO - Processing command: open youtube
+2026-05-18 12:06:30,695 - core.utils - INFO - Opened website: https://www.youtube.com
+2026-05-18 12:06:30,696 - features.web_browsing - INFO - Opened website: youtube
+2026-05-18 12:06:30,696 - gui.modern_gui - INFO - Executed: open youtube -> Opening youtube
+2026-05-18 12:06:46,098 - core.speech_engine - INFO - Recognized: open Google
+2026-05-18 12:06:46,103 - core.commands - INFO - Processing command: open google
+2026-05-18 12:06:46,178 - core.utils - INFO - Opened website: https://www.google.com
+2026-05-18 12:06:46,178 - features.web_browsing - INFO - Opened website: google
+2026-05-18 12:06:46,178 - gui.modern_gui - INFO - Executed: open google -> Opening google
+2026-05-18 12:06:53,384 - core.speech_engine - INFO - Recognized: open Wikipedia
+2026-05-18 12:06:53,396 - core.commands - INFO - Processing command: open wikipedia
+2026-05-18 12:06:53,496 - core.utils - INFO - Opened website: https://www.wikipedia.org
+2026-05-18 12:06:53,497 - features.web_browsing - INFO - Opened website: wikipedia
+2026-05-18 12:06:53,499 - gui.modern_gui - INFO - Executed: open wikipedia -> Opening wikipedia
+2026-05-18 12:06:59,697 - core.speech_engine - INFO - Recognized: open Weather App
+2026-05-18 12:06:59,707 - core.commands - INFO - Processing command: open weather app
+2026-05-18 12:06:59,828 - core.utils - INFO - Opened website: https://weather app.com
+2026-05-18 12:06:59,829 - features.web_browsing - INFO - Opened website: weather app
+2026-05-18 12:06:59,829 - gui.modern_gui - INFO - Executed: open weather app -> Opening weather app
+2026-05-18 12:07:15,056 - core.speech_engine - INFO - Recognized: tell me date and time
+2026-05-18 12:07:15,062 - core.commands - INFO - Processing command: tell me date and time
+2026-05-18 12:07:15,064 - features.time_date - INFO - Retrieved date and time: Monday, May 18, 2026, 12:07 PM
+2026-05-18 12:07:15,065 - gui.modern_gui - INFO - Executed: tell me date and time -> Today is Monday, Monday, May 18, 2026, and the current time is 12:07 PM
+2026-05-18 12:07:18,190 - gui.modern_gui - INFO - Shutting down assistant
+2026-05-18 12:07:18,199 - __main__ - INFO - Voice Assistant shutdown complete
+2026-05-18 12:11:51,731 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-18 12:11:51,731 - __main__ - INFO - Starting in Modern GUI mode
+2026-05-18 12:11:51,928 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-18 12:11:51,929 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-05-18 12:11:52,084 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-18 12:11:52,086 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-18 12:11:52,087 - core.commands - INFO - CommandProcessor initialized
+2026-05-18 12:11:52,361 - gui.modern_gui - INFO - Background listening started
+2026-05-18 12:11:52,361 - gui.modern_gui - INFO - Modern GUI initialized
+2026-05-18 12:11:52,361 - gui.modern_gui - INFO - Starting Modern GUI application
+2026-05-18 12:12:25,326 - core.speech_engine - INFO - Recognized: tell me date and time
+2026-05-18 12:12:25,349 - core.commands - INFO - Processing command: tell me date and time
+2026-05-18 12:12:25,350 - features.time_date - INFO - Retrieved date and time: Monday, May 18, 2026, 12:12 PM
+2026-05-18 12:12:25,351 - gui.modern_gui - INFO - Executed: tell me date and time -> Today is Monday, Monday, May 18, 2026, and the current time is 12:12 PM
+2026-05-18 12:12:25,370 - core.speech_engine - ERROR - Error in TTS execution: run loop already started
+2026-05-18 12:13:07,848 - core.speech_engine - INFO - Recognized: open YouTube
+2026-05-18 12:13:07,858 - core.commands - INFO - Processing command: open youtube
+2026-05-18 12:13:08,048 - core.utils - INFO - Opened website: https://www.youtube.com
+2026-05-18 12:13:08,048 - features.web_browsing - INFO - Opened website: youtube
+2026-05-18 12:13:08,049 - gui.modern_gui - INFO - Executed: open youtube -> Opening youtube
+2026-05-18 12:13:08,052 - core.speech_engine - ERROR - Error in TTS execution: run loop already started
+2026-05-18 12:13:17,915 - core.speech_engine - INFO - Recognized: open Google
+2026-05-18 12:13:17,924 - core.commands - INFO - Processing command: open google
+2026-05-18 12:13:18,021 - core.utils - INFO - Opened website: https://www.google.com
+2026-05-18 12:13:18,021 - features.web_browsing - INFO - Opened website: google
+2026-05-18 12:13:18,021 - gui.modern_gui - INFO - Executed: open google -> Opening google
+2026-05-18 12:13:18,025 - core.speech_engine - ERROR - Error in TTS execution: run loop already started
+2026-05-18 12:13:27,294 - core.speech_engine - INFO - Recognized: tell me
+2026-05-18 12:13:27,315 - core.commands - INFO - Processing command: tell me
+2026-05-18 12:13:27,316 - features.conversation - INFO - Chat request: tell me
+2026-05-18 12:13:27,317 - features.conversation - INFO - Joke provided
+2026-05-18 12:13:27,317 - gui.modern_gui - INFO - Executed: tell me -> That's interesting! Tell me more about that.
+2026-05-18 12:13:27,320 - core.speech_engine - ERROR - Error in TTS execution: run loop already started
+2026-05-18 12:13:42,262 - core.speech_engine - INFO - Recognized: open Wikipedia
+2026-05-18 12:13:42,273 - core.commands - INFO - Processing command: open wikipedia
+2026-05-18 12:13:42,349 - core.utils - INFO - Opened website: https://www.wikipedia.org
+2026-05-18 12:13:42,350 - features.web_browsing - INFO - Opened website: wikipedia
+2026-05-18 12:13:42,350 - gui.modern_gui - INFO - Executed: open wikipedia -> Opening wikipedia
+2026-05-18 12:13:42,353 - core.speech_engine - ERROR - Error in TTS execution: run loop already started
+2026-05-18 12:14:16,617 - core.speech_engine - INFO - Recognized: what is the date and time today
+2026-05-18 12:14:16,625 - core.commands - INFO - Processing command: what is the date and time today
+2026-05-18 12:14:16,625 - features.time_date - INFO - Retrieved date and time: Monday, May 18, 2026, 12:14 PM
+2026-05-18 12:14:16,625 - gui.modern_gui - INFO - Executed: what is the date and time today -> Today is Monday, Monday, May 18, 2026, and the current time is 12:14 PM
+2026-05-18 12:14:16,633 - core.speech_engine - ERROR - Error in TTS execution: run loop already started
+2026-05-18 12:14:44,076 - core.speech_engine - INFO - Recognized: open
+2026-05-18 12:14:44,081 - core.commands - INFO - Processing command: open
+2026-05-18 12:14:44,082 - features.conversation - INFO - Chat request: open
+2026-05-18 12:14:44,082 - features.conversation - INFO - Joke provided
+2026-05-18 12:14:44,082 - gui.modern_gui - INFO - Executed: open -> That's interesting! Tell me more about that.
+2026-05-18 12:14:44,088 - core.speech_engine - ERROR - Error in TTS execution: run loop already started
+2026-05-18 12:14:53,001 - core.speech_engine - INFO - Recognized: tell me about today
+2026-05-18 12:14:53,007 - core.commands - INFO - Processing command: tell me about today
+2026-05-18 12:14:53,007 - features.time_date - INFO - Retrieved current date: Monday, May 18, 2026
+2026-05-18 12:14:53,007 - gui.modern_gui - INFO - Executed: tell me about today -> Today is Monday, Monday, May 18, 2026
+2026-05-18 12:14:53,016 - core.speech_engine - ERROR - Error in TTS execution: run loop already started
+2026-05-18 12:15:09,026 - core.speech_engine - INFO - Recognized: open Weather App
+2026-05-18 12:15:09,034 - core.commands - INFO - Processing command: open weather app
+2026-05-18 12:15:09,126 - core.utils - INFO - Opened website: https://weather app.com
+2026-05-18 12:15:09,126 - features.web_browsing - INFO - Opened website: weather app
+2026-05-18 12:15:09,127 - gui.modern_gui - INFO - Executed: open weather app -> Opening weather app
+2026-05-18 12:15:09,132 - core.speech_engine - ERROR - Error in TTS execution: run loop already started
+2026-05-18 12:16:00,995 - gui.modern_gui - INFO - Shutting down assistant
+2026-05-18 12:16:00,996 - __main__ - INFO - Voice Assistant shutdown complete
+2026-05-18 12:20:33,222 - features.conversation - INFO - Farewell provided
+2026-05-18 12:20:33,223 - __main__ - INFO - Interrupted by user
+2026-05-18 12:20:33,223 - __main__ - INFO - Voice Assistant shutdown complete
+2026-05-18 12:20:40,686 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-18 12:20:40,686 - __main__ - INFO - Starting in interactive mode
+2026-05-18 12:20:40,742 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\Desktop\\voice assistance\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-18 12:20:40,743 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\Desktop\voice assistance\.venv\Lib\site-packages\comtypes\gen'
+2026-05-18 12:20:40,893 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-18 12:20:40,893 - core.commands - INFO - CommandProcessor initialized
+2026-05-18 12:20:40,894 - features.conversation - INFO - Greeting provided
+2026-05-18 12:20:41,623 - features.conversation - INFO - Farewell provided
+2026-05-18 12:20:41,623 - __main__ - INFO - Interrupted by user
+2026-05-18 12:20:41,623 - __main__ - INFO - Voice Assistant shutdown complete
+2026-05-18 12:33:18,239 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-18 12:33:18,239 - __main__ - INFO - Starting in Modern GUI mode
+2026-05-18 12:33:18,444 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-18 12:33:18,445 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-05-18 12:33:18,592 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-18 12:33:18,592 - core.commands - INFO - CommandProcessor initialized
+2026-05-18 12:33:18,866 - gui.modern_gui - INFO - Background listening started
+2026-05-18 12:33:18,866 - gui.modern_gui - INFO - Modern GUI initialized
+2026-05-18 12:33:18,867 - gui.modern_gui - INFO - Starting Modern GUI application
+2026-05-18 12:33:23,689 - core.speech_engine - INFO - Recognized: open YouTube
+2026-05-18 12:33:23,718 - core.commands - INFO - Processing command: open youtube
+2026-05-18 12:33:23,913 - core.utils - INFO - Opened website: https://www.youtube.com
+2026-05-18 12:33:23,913 - features.web_browsing - INFO - Opened website: youtube
+2026-05-18 12:33:23,913 - gui.modern_gui - INFO - Executed: open youtube -> Opening youtube
+2026-05-18 12:33:33,762 - core.speech_engine - INFO - Recognized: play muntazir
+2026-05-18 12:33:33,769 - core.commands - INFO - Processing command: play muntazir
+2026-05-18 12:33:33,877 - core.utils - INFO - YouTube search: muntazir
+2026-05-18 12:33:33,877 - features.web_browsing - INFO - Searched YouTube: muntazir
+2026-05-18 12:33:33,878 - gui.modern_gui - INFO - Executed: play muntazir -> Opening YouTube and searching for muntazir
+2026-05-18 12:33:43,807 - core.speech_engine - INFO - Recognized: tell me date
+2026-05-18 12:33:43,826 - core.commands - INFO - Processing command: tell me date
+2026-05-18 12:33:43,842 - features.time_date - INFO - Retrieved current date: Monday, May 18, 2026
+2026-05-18 12:33:43,843 - gui.modern_gui - INFO - Executed: tell me date -> Today is Monday, Monday, May 18, 2026
+2026-05-18 12:33:50,672 - core.speech_engine - INFO - Recognized: tell me a joke
+2026-05-18 12:33:50,681 - core.commands - INFO - Processing command: tell me a joke
+2026-05-18 12:33:50,681 - features.conversation - INFO - Chat request: tell me a joke
+2026-05-18 12:33:50,682 - features.conversation - INFO - Joke provided
+2026-05-18 12:33:50,683 - features.conversation - INFO - Pattern matched: tell me a joke
+2026-05-18 12:33:50,683 - gui.modern_gui - INFO - Executed: tell me a joke -> What's a programmer's favorite place to hang out? Stack Overflow.
+2026-05-18 12:33:58,936 - core.speech_engine - INFO - Recognized: open Weather App
+2026-05-18 12:33:58,951 - core.commands - INFO - Processing command: open weather app
+2026-05-18 12:33:59,043 - core.utils - INFO - Opened website: https://weather app.com
+2026-05-18 12:33:59,044 - features.web_browsing - INFO - Opened website: weather app
+2026-05-18 12:33:59,044 - gui.modern_gui - INFO - Executed: open weather app -> Opening weather app
+2026-05-18 12:34:07,847 - gui.modern_gui - INFO - Shutting down assistant
+2026-05-18 12:34:07,848 - core.speech_engine - INFO - Speech Engine closed
+2026-05-18 12:34:07,849 - __main__ - INFO - Voice Assistant shutdown complete
+2026-05-18 16:18:05,353 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-18 16:18:05,354 - __main__ - INFO - Starting in Modern GUI mode
+2026-05-18 16:18:05,681 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-18 16:18:05,700 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-05-18 16:18:05,980 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-18 16:18:05,980 - core.commands - INFO - CommandProcessor initialized
+2026-05-18 16:18:06,413 - gui.modern_gui - INFO - Background listening started
+2026-05-18 16:18:06,413 - gui.modern_gui - INFO - Modern GUI initialized
+2026-05-18 16:18:06,414 - gui.modern_gui - INFO - Starting Modern GUI application
+2026-05-18 16:18:14,863 - core.speech_engine - INFO - Recognized: open YouTube
+2026-05-18 16:18:14,893 - core.commands - INFO - Processing command: open youtube
+2026-05-18 16:18:15,101 - core.utils - INFO - Opened website: https://www.youtube.com
+2026-05-18 16:18:15,101 - features.web_browsing - INFO - Opened website: youtube
+2026-05-18 16:18:15,101 - gui.modern_gui - INFO - Executed: open youtube -> Opening youtube
+2026-05-18 16:18:26,860 - core.speech_engine - INFO - Recognized: open Google
+2026-05-18 16:18:26,870 - core.commands - INFO - Processing command: open google
+2026-05-18 16:18:26,957 - core.utils - INFO - Opened website: https://www.google.com
+2026-05-18 16:18:26,958 - features.web_browsing - INFO - Opened website: google
+2026-05-18 16:18:26,958 - gui.modern_gui - INFO - Executed: open google -> Opening google
+2026-05-18 16:18:34,674 - core.speech_engine - INFO - Recognized: close
+2026-05-18 16:18:34,682 - core.commands - INFO - Processing command: close
+2026-05-18 16:18:34,683 - features.conversation - INFO - Chat request: close
+2026-05-18 16:18:34,683 - features.conversation - INFO - Joke provided
+2026-05-18 16:18:34,684 - gui.modern_gui - INFO - Executed: close -> That's interesting! Tell me more about that.
+2026-05-18 16:18:43,017 - core.speech_engine - INFO - Recognized: gana chala de to put Odia gana
+2026-05-18 16:18:43,027 - core.commands - INFO - Processing command: gana chala de to put odia gana
+2026-05-18 16:18:43,031 - features.conversation - INFO - Chat request: gana chala de to put odia gana
+2026-05-18 16:18:43,032 - features.conversation - INFO - Joke provided
+2026-05-18 16:18:43,033 - gui.modern_gui - INFO - Executed: gana chala de to put odia gana -> That's interesting! Tell me more about that.
+2026-05-18 16:18:53,448 - core.speech_engine - INFO - Recognized: open YouTube
+2026-05-18 16:18:53,452 - core.commands - INFO - Processing command: open youtube
+2026-05-18 16:18:53,538 - core.utils - INFO - Opened website: https://www.youtube.com
+2026-05-18 16:18:53,538 - features.web_browsing - INFO - Opened website: youtube
+2026-05-18 16:18:53,539 - gui.modern_gui - INFO - Executed: open youtube -> Opening youtube
+2026-05-18 16:19:04,971 - core.speech_engine - INFO - Recognized: play muntazir song
+2026-05-18 16:19:04,976 - core.commands - INFO - Processing command: play muntazir song
+2026-05-18 16:19:05,048 - core.utils - INFO - YouTube search: muntazir song
+2026-05-18 16:19:05,049 - features.web_browsing - INFO - Searched YouTube: muntazir song
+2026-05-18 16:19:05,049 - gui.modern_gui - INFO - Executed: play muntazir song -> Opening YouTube and searching for muntazir song
+2026-05-18 16:19:28,877 - core.speech_engine - INFO - Recognized: play muntazar
+2026-05-18 16:19:28,885 - core.commands - INFO - Processing command: play muntazar
+2026-05-18 16:19:28,954 - core.utils - INFO - YouTube search: muntazar
+2026-05-18 16:19:28,955 - features.web_browsing - INFO - Searched YouTube: muntazar
+2026-05-18 16:19:28,955 - gui.modern_gui - INFO - Executed: play muntazar -> Opening YouTube and searching for muntazar
+2026-05-18 16:19:58,455 - core.speech_engine - INFO - Recognized: Achcha time
+2026-05-18 16:19:58,461 - core.commands - INFO - Processing command: achcha time
+2026-05-18 16:19:58,461 - features.time_date - INFO - Retrieved current time: 04:19 PM
+2026-05-18 16:19:58,461 - gui.modern_gui - INFO - Executed: achcha time -> The current time is 04:19 PM
+2026-05-18 16:20:08,671 - gui.modern_gui - INFO - Shutting down assistant
+2026-05-18 16:20:08,672 - core.speech_engine - INFO - Speech Engine closed
+2026-05-18 16:20:08,672 - __main__ - INFO - Voice Assistant shutdown complete
+2026-05-18 16:20:15,260 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-18 16:20:15,260 - __main__ - INFO - Starting in Modern GUI mode
+2026-05-18 16:20:15,432 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-18 16:20:15,445 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-05-18 16:20:15,603 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-18 16:20:15,603 - core.commands - INFO - CommandProcessor initialized
+2026-05-18 16:20:15,831 - gui.modern_gui - INFO - Background listening started
+2026-05-18 16:20:15,831 - gui.modern_gui - INFO - Modern GUI initialized
+2026-05-18 16:20:15,831 - gui.modern_gui - INFO - Starting Modern GUI application
+2026-05-18 16:20:28,585 - core.speech_engine - INFO - Recognized: date and time
+2026-05-18 16:20:28,610 - core.commands - INFO - Processing command: date and time
+2026-05-18 16:20:28,610 - features.time_date - INFO - Retrieved date and time: Monday, May 18, 2026, 04:20 PM
+2026-05-18 16:20:28,610 - gui.modern_gui - INFO - Executed: date and time -> Today is Monday, Monday, May 18, 2026, and the current time is 04:20 PM
+2026-05-18 16:20:50,798 - gui.modern_gui - INFO - Shutting down assistant
+2026-05-18 16:20:50,800 - core.speech_engine - INFO - Speech Engine closed
+2026-05-18 16:20:50,800 - __main__ - INFO - Voice Assistant shutdown complete
+2026-05-18 16:21:08,781 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-18 16:21:08,781 - __main__ - INFO - Starting in interactive mode
+2026-05-18 16:21:08,843 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-18 16:21:08,844 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-05-18 16:21:08,999 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-18 16:21:09,000 - core.commands - INFO - CommandProcessor initialized
+2026-05-18 16:21:09,000 - features.conversation - INFO - Greeting provided
+2026-05-18 16:21:18,157 - core.commands - INFO - Processing command: open youtube
+2026-05-18 16:21:18,379 - core.utils - INFO - Opened website: https://www.youtube.com
+2026-05-18 16:21:18,379 - features.web_browsing - INFO - Opened website: youtube
+2026-05-18 16:21:27,939 - core.commands - INFO - Processing command: open weather app
+2026-05-18 16:21:28,019 - core.utils - INFO - Opened website: https://weather app.com
+2026-05-18 16:21:28,019 - features.web_browsing - INFO - Opened website: weather app
+2026-05-18 16:22:10,879 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-18 16:22:10,879 - __main__ - INFO - Starting in interactive mode
+2026-05-18 16:22:10,986 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\Desktop\\voice assistance\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-18 16:22:10,986 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\Desktop\voice assistance\.venv\Lib\site-packages\comtypes\gen'
+2026-05-18 16:22:11,259 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-18 16:22:11,259 - core.commands - INFO - CommandProcessor initialized
+2026-05-18 16:22:11,259 - features.conversation - INFO - Greeting provided
+2026-05-18 16:22:23,847 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-18 16:22:23,848 - __main__ - INFO - Starting in interactive mode
+2026-05-18 16:22:23,899 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\Desktop\\voice assistance\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-18 16:22:23,900 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\Desktop\voice assistance\.venv\Lib\site-packages\comtypes\gen'
+2026-05-18 16:22:24,046 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-18 16:22:24,046 - core.commands - INFO - CommandProcessor initialized
+2026-05-18 16:22:24,046 - features.conversation - INFO - Greeting provided
+2026-05-18 16:22:45,062 - core.commands - INFO - Processing command: python main.py --gui
+2026-05-18 16:22:45,062 - features.conversation - INFO - Chat request: python main.py --gui
+2026-05-18 16:22:45,062 - features.conversation - INFO - Joke provided
+2026-05-18 16:22:54,422 - core.commands - INFO - Processing command: python main.py
+2026-05-18 16:22:54,423 - features.conversation - INFO - Chat request: python main.py
+2026-05-18 16:22:54,423 - features.conversation - INFO - Joke provided
+2026-05-18 16:23:17,055 - features.conversation - INFO - Farewell provided
+2026-05-18 16:23:17,055 - __main__ - INFO - Interrupted by user
+2026-05-18 16:23:17,055 - __main__ - INFO - Voice Assistant shutdown complete
+2026-05-19 08:43:13,127 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-19 08:43:13,127 - __main__ - INFO - Starting in interactive mode
+2026-05-19 08:43:13,188 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\Desktop\\voice assistance\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-19 08:43:13,189 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\Desktop\voice assistance\.venv\Lib\site-packages\comtypes\gen'
+2026-05-19 08:43:13,335 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-19 08:43:13,335 - core.commands - INFO - CommandProcessor initialized
+2026-05-19 08:43:13,335 - features.conversation - INFO - Greeting provided
+2026-05-19 08:43:21,129 - core.commands - INFO - Processing command: open youtube
+2026-05-19 08:43:21,221 - core.utils - INFO - Opened website: https://www.youtube.com
+2026-05-19 08:43:21,221 - features.web_browsing - INFO - Opened website: youtube
+2026-05-19 08:44:12,685 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-19 08:44:12,685 - __main__ - INFO - Starting in Modern GUI mode
+2026-05-19 08:44:12,924 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-19 08:44:12,924 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-05-19 08:44:13,073 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-19 08:44:13,073 - core.commands - INFO - CommandProcessor initialized
+2026-05-19 08:44:13,456 - gui.modern_gui - INFO - Background listening started
+2026-05-19 08:44:13,456 - gui.modern_gui - INFO - Modern GUI initialized
+2026-05-19 08:44:13,457 - gui.modern_gui - INFO - Starting Modern GUI application
+2026-05-19 08:44:31,399 - core.speech_engine - INFO - Recognized: tell me date
+2026-05-19 08:44:31,427 - core.commands - INFO - Processing command: tell me date
+2026-05-19 08:44:31,427 - features.time_date - INFO - Retrieved current date: Tuesday, May 19, 2026
+2026-05-19 08:44:31,428 - gui.modern_gui - INFO - Executed: tell me date -> Today is Tuesday, Tuesday, May 19, 2026
+2026-05-19 08:44:45,273 - core.speech_engine - INFO - Recognized: Kheda gana
+2026-05-19 08:44:45,281 - core.commands - INFO - Processing command: kheda gana
+2026-05-19 08:44:45,281 - features.conversation - INFO - Chat request: kheda gana
+2026-05-19 08:44:45,281 - features.conversation - INFO - Joke provided
+2026-05-19 08:44:45,282 - gui.modern_gui - INFO - Executed: kheda gana -> That's interesting! Tell me more about that.
+2026-05-19 08:44:51,577 - core.speech_engine - INFO - Recognized: muntazir song play
+2026-05-19 08:44:51,582 - core.commands - INFO - Processing command: muntazir song play
+2026-05-19 08:44:51,582 - features.conversation - INFO - Chat request: muntazir song play
+2026-05-19 08:44:51,583 - features.conversation - INFO - Joke provided
+2026-05-19 08:44:51,583 - gui.modern_gui - INFO - Executed: muntazir song play -> That's interesting! Tell me more about that.
+2026-05-19 08:44:56,278 - core.speech_engine - INFO - Recognized: play muntazir song
+2026-05-19 08:44:56,287 - core.commands - INFO - Processing command: play muntazir song
+2026-05-19 08:44:56,451 - core.utils - INFO - YouTube search: muntazir song
+2026-05-19 08:44:56,451 - features.web_browsing - INFO - Searched YouTube: muntazir song
+2026-05-19 08:44:56,451 - gui.modern_gui - INFO - Executed: play muntazir song -> Opening YouTube and searching for muntazir song
+2026-05-19 08:45:13,103 - core.speech_engine - INFO - Recognized: Chhod Dena yah dekhna
+2026-05-19 08:45:13,109 - core.commands - INFO - Processing command: chhod dena yah dekhna
+2026-05-19 08:45:13,110 - features.conversation - INFO - Chat request: chhod dena yah dekhna
+2026-05-19 08:45:13,110 - features.conversation - INFO - Joke provided
+2026-05-19 08:45:13,111 - gui.modern_gui - INFO - Executed: chhod dena yah dekhna -> That's interesting! Tell me more about that.
+2026-05-19 08:45:35,550 - gui.modern_gui - INFO - Shutting down assistant
+2026-05-19 08:45:35,551 - core.speech_engine - INFO - Speech Engine closed
+2026-05-19 08:45:35,551 - __main__ - INFO - Voice Assistant shutdown complete
+2026-05-19 08:58:57,656 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-19 08:58:57,657 - __main__ - INFO - Starting in Modern GUI mode
+2026-05-19 08:58:57,870 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-19 08:58:57,871 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-05-19 08:58:58,031 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-19 08:58:58,031 - core.commands - INFO - CommandProcessor initialized
+2026-05-19 08:58:58,281 - gui.modern_gui - INFO - Background listening started
+2026-05-19 08:58:58,281 - gui.modern_gui - INFO - Modern GUI initialized
+2026-05-19 08:58:58,282 - gui.modern_gui - INFO - Starting Modern GUI application
+2026-05-19 08:59:36,834 - core.speech_engine - INFO - Recognized: open YouTube
+2026-05-19 08:59:36,859 - core.commands - INFO - Processing command: open youtube
+2026-05-19 08:59:37,053 - core.utils - INFO - Opened website: https://www.youtube.com
+2026-05-19 08:59:37,053 - features.web_browsing - INFO - Opened website: youtube
+2026-05-19 08:59:37,053 - gui.modern_gui - INFO - Executed: open youtube -> Opening youtube
+2026-05-19 08:59:54,511 - core.speech_engine - INFO - Recognized: open GitHub
+2026-05-19 08:59:54,520 - core.commands - INFO - Processing command: open github
+2026-05-19 08:59:54,614 - core.utils - INFO - Opened website: https://www.github.com
+2026-05-19 08:59:54,614 - features.web_browsing - INFO - Opened website: github
+2026-05-19 08:59:54,615 - gui.modern_gui - INFO - Executed: open github -> Opening github
+2026-05-19 09:00:15,081 - core.speech_engine - INFO - Recognized: isko usmein Kaise upload Karen
+2026-05-19 09:00:15,085 - core.commands - INFO - Processing command: isko usmein kaise upload karen
+2026-05-19 09:00:15,086 - features.conversation - INFO - Chat request: isko usmein kaise upload karen
+2026-05-19 09:00:15,086 - features.conversation - INFO - Joke provided
+2026-05-19 09:00:15,086 - gui.modern_gui - INFO - Executed: isko usmein kaise upload karen -> That's interesting! Tell me more about that.
+2026-05-19 09:00:17,478 - gui.modern_gui - INFO - Shutting down assistant
+2026-05-19 09:00:17,478 - core.speech_engine - INFO - Speech Engine closed
+2026-05-19 09:00:17,479 - __main__ - INFO - Voice Assistant shutdown complete
+2026-05-19 11:24:28,085 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-19 11:24:28,085 - __main__ - INFO - Starting in Modern GUI mode
+2026-05-19 11:24:28,372 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-19 11:24:28,372 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-05-19 11:24:28,674 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-19 11:24:28,674 - core.commands - INFO - CommandProcessor initialized
+2026-05-19 11:24:29,180 - gui.modern_gui - INFO - Background listening started
+2026-05-19 11:24:29,180 - gui.modern_gui - INFO - Modern GUI initialized
+2026-05-19 11:24:29,180 - gui.modern_gui - INFO - Starting Modern GUI application
+2026-05-19 11:24:33,959 - core.speech_engine - INFO - Recognized: tell me date and time
+2026-05-19 11:24:33,981 - core.commands - INFO - Processing command: tell me date and time
+2026-05-19 11:24:33,982 - features.time_date - INFO - Retrieved date and time: Tuesday, May 19, 2026, 11:24 AM
+2026-05-19 11:24:33,982 - gui.modern_gui - INFO - Executed: tell me date and time -> Today is Tuesday, Tuesday, May 19, 2026, and the current time is 11:24 AM
+2026-05-19 11:24:49,673 - core.speech_engine - INFO - Recognized: play muntazir song
+2026-05-19 11:24:49,679 - core.commands - INFO - Processing command: play muntazir song
+2026-05-19 11:24:49,843 - core.utils - INFO - YouTube search: muntazir song
+2026-05-19 11:24:49,844 - features.web_browsing - INFO - Searched YouTube: muntazir song
+2026-05-19 11:24:49,844 - gui.modern_gui - INFO - Executed: play muntazir song -> Opening YouTube and searching for muntazir song
+2026-05-19 11:25:09,945 - gui.modern_gui - INFO - Shutting down assistant
+2026-05-19 11:25:09,946 - core.speech_engine - INFO - Speech Engine closed
+2026-05-19 11:25:09,947 - __main__ - INFO - Voice Assistant shutdown complete
+2026-05-24 10:00:20,198 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-24 10:00:20,199 - __main__ - INFO - Starting in Modern GUI mode
+2026-05-24 10:00:20,398 - __main__ - INFO - Application terminated by user
+2026-05-24 10:01:06,195 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-24 10:01:06,196 - __main__ - INFO - Starting in voice listening mode
+2026-05-24 10:01:06,262 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\Desktop\\voice assistance\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-24 10:01:06,262 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\Desktop\voice assistance\.venv\Lib\site-packages\comtypes\gen'
+2026-05-24 10:01:06,464 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-24 10:01:06,465 - core.commands - INFO - CommandProcessor initialized
+2026-05-24 10:01:06,465 - core.commands - INFO - Starting continuous listening mode
+2026-05-24 10:01:42,171 - core.speech_engine - INFO - Recognized: play muntazir song
+2026-05-24 10:01:42,171 - core.commands - INFO - Processing command: play muntazir song
+2026-05-24 10:01:42,379 - core.utils - INFO - YouTube search: muntazir song
+2026-05-24 10:01:42,379 - features.web_browsing - INFO - Searched YouTube: muntazir song
+2026-05-24 10:02:00,064 - core.speech_engine - INFO - Recognized: tell me today's date and time
+2026-05-24 10:02:00,065 - core.commands - INFO - Processing command: tell me today's date and time
+2026-05-24 10:02:00,065 - features.time_date - INFO - Retrieved date and time: Sunday, May 24, 2026, 10:02 AM
+2026-05-24 10:02:34,530 - core.commands - INFO - Interrupted by user
+2026-05-24 10:02:34,530 - __main__ - INFO - Voice Assistant shutdown complete
+2026-05-24 10:06:44,625 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-24 10:06:44,625 - __main__ - INFO - Starting in Modern GUI mode
+2026-05-24 10:06:44,803 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-24 10:06:44,803 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-05-24 10:06:44,987 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-24 10:06:44,988 - core.commands - INFO - CommandProcessor initialized
+2026-05-24 10:06:45,458 - gui.modern_gui - INFO - Background listening started
+2026-05-24 10:06:45,458 - gui.modern_gui - INFO - Modern GUI initialized
+2026-05-24 10:06:45,459 - gui.modern_gui - INFO - Starting Modern GUI application
+2026-05-24 10:06:57,889 - core.speech_engine - INFO - Recognized: how is the weather
+2026-05-24 10:06:57,912 - core.commands - INFO - Processing command: how is the weather
+2026-05-24 10:06:57,912 - features.weather - WARNING - Weather API key not configured
+2026-05-24 10:06:57,912 - features.conversation - INFO - Confused response provided
+2026-05-24 10:06:57,913 - gui.modern_gui - INFO - Executed: how is the weather -> Hmm, I'm not sure about that. Can you rephrase?
+2026-05-24 10:07:07,746 - core.speech_engine - INFO - Recognized: tell me the weather
+2026-05-24 10:07:07,754 - core.commands - INFO - Processing command: tell me the weather
+2026-05-24 10:07:07,755 - features.weather - WARNING - Weather API key not configured
+2026-05-24 10:07:07,755 - features.conversation - INFO - Confused response provided
+2026-05-24 10:07:07,755 - gui.modern_gui - INFO - Executed: tell me the weather -> I don't understand. Could you clarify?
+2026-05-24 10:07:16,772 - core.speech_engine - INFO - Recognized: tell me the weather
+2026-05-24 10:07:16,779 - core.commands - INFO - Processing command: tell me the weather
+2026-05-24 10:07:16,779 - features.weather - WARNING - Weather API key not configured
+2026-05-24 10:07:16,780 - features.conversation - INFO - Confused response provided
+2026-05-24 10:07:16,780 - gui.modern_gui - INFO - Executed: tell me the weather -> I don't understand. Could you clarify?
+2026-05-24 10:07:32,442 - core.speech_engine - INFO - Recognized: open YouTube
+2026-05-24 10:07:32,446 - core.commands - INFO - Processing command: open youtube
+2026-05-24 10:07:32,654 - core.utils - INFO - Opened website: https://www.youtube.com
+2026-05-24 10:07:32,655 - features.web_browsing - INFO - Opened website: youtube
+2026-05-24 10:07:32,655 - gui.modern_gui - INFO - Executed: open youtube -> Opening youtube
+2026-05-24 10:07:48,092 - gui.modern_gui - INFO - Shutting down assistant
+2026-05-24 10:07:48,098 - core.speech_engine - INFO - Speech Engine closed
+2026-05-24 10:07:48,099 - __main__ - INFO - Voice Assistant shutdown complete
+2026-05-24 10:11:26,547 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-24 10:11:26,547 - __main__ - INFO - Starting in interactive mode
+2026-05-24 10:11:26,607 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\Desktop\\voice assistance\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-24 10:11:26,607 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\Desktop\voice assistance\.venv\Lib\site-packages\comtypes\gen'
+2026-05-24 10:11:26,843 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-24 10:11:26,843 - core.commands - INFO - CommandProcessor initialized
+2026-05-24 10:11:26,843 - features.conversation - INFO - Greeting provided
+2026-05-24 10:12:43,706 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-24 10:12:43,707 - __main__ - INFO - Starting in Modern GUI mode
+2026-05-24 10:12:43,925 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\Desktop\\voice assistance\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-24 10:12:43,926 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\Desktop\voice assistance\.venv\Lib\site-packages\comtypes\gen'
+2026-05-24 10:12:44,081 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-24 10:12:44,081 - core.commands - INFO - CommandProcessor initialized
+2026-05-24 10:12:44,479 - gui.modern_gui - INFO - Background listening started
+2026-05-24 10:12:44,479 - gui.modern_gui - INFO - Modern GUI initialized
+2026-05-24 10:12:44,480 - gui.modern_gui - INFO - Starting Modern GUI application
+2026-05-24 10:12:47,031 - gui.modern_gui - INFO - Shutting down assistant
+2026-05-24 10:12:47,032 - core.speech_engine - INFO - Speech Engine closed
+2026-05-24 10:12:47,032 - __main__ - INFO - Voice Assistant shutdown complete
+2026-05-24 10:25:09,465 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-24 10:25:09,466 - __main__ - INFO - Starting in interactive mode
+2026-05-24 10:25:09,551 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\Desktop\\voice assistance\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-24 10:25:09,551 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\Desktop\voice assistance\.venv\Lib\site-packages\comtypes\gen'
+2026-05-24 10:25:09,700 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-24 10:25:09,700 - core.commands - INFO - CommandProcessor initialized
+2026-05-24 10:25:09,700 - features.conversation - INFO - Greeting provided
+2026-05-24 10:25:26,899 - features.conversation - INFO - Farewell provided
+2026-05-24 10:25:26,900 - __main__ - INFO - User exited application
+2026-05-24 10:25:26,900 - __main__ - INFO - Voice Assistant shutdown complete
+2026-05-24 10:26:01,804 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-24 10:26:01,804 - __main__ - INFO - Starting in interactive mode
+2026-05-24 10:26:01,853 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\Desktop\\voice assistance\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-24 10:26:01,854 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\Desktop\voice assistance\.venv\Lib\site-packages\comtypes\gen'
+2026-05-24 10:26:02,006 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-24 10:26:02,007 - core.commands - INFO - CommandProcessor initialized
+2026-05-24 10:26:02,007 - features.conversation - INFO - Greeting provided
+2026-05-24 10:26:27,328 - features.conversation - INFO - Farewell provided
+2026-05-24 10:26:27,328 - __main__ - INFO - User exited application
+2026-05-24 10:26:27,329 - __main__ - INFO - Voice Assistant shutdown complete
+2026-05-24 10:43:32,861 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-24 10:43:32,862 - __main__ - INFO - Starting in interactive mode
+2026-05-24 10:43:32,908 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\Desktop\\voice assistance\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-24 10:43:32,909 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\Desktop\voice assistance\.venv\Lib\site-packages\comtypes\gen'
+2026-05-24 10:43:33,053 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-24 10:43:33,053 - core.commands - INFO - CommandProcessor initialized
+2026-05-24 10:43:33,053 - features.conversation - INFO - Greeting provided
+2026-05-24 10:43:39,263 - features.conversation - INFO - Farewell provided
+2026-05-24 10:43:39,263 - __main__ - INFO - User exited application
+2026-05-24 10:43:39,263 - __main__ - INFO - Voice Assistant shutdown complete
+2026-05-24 10:45:31,945 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-24 10:45:31,946 - __main__ - INFO - Starting in interactive mode
+2026-05-24 10:45:32,013 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\Desktop\\voice assistance\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-24 10:45:32,014 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\Desktop\voice assistance\.venv\Lib\site-packages\comtypes\gen'
+2026-05-24 10:45:32,201 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-24 10:45:32,202 - core.commands - INFO - CommandProcessor initialized
+2026-05-24 10:45:32,202 - features.conversation - INFO - Greeting provided
+2026-05-24 10:46:58,615 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-24 10:46:58,615 - __main__ - INFO - Starting in Modern GUI mode
+2026-05-24 10:46:58,809 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\Desktop\\voice assistance\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-24 10:46:58,810 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\Desktop\voice assistance\.venv\Lib\site-packages\comtypes\gen'
+2026-05-24 10:46:58,958 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-24 10:46:58,958 - core.commands - INFO - CommandProcessor initialized
+2026-05-24 10:46:59,207 - gui.modern_gui - INFO - Background listening started
+2026-05-24 10:46:59,207 - gui.modern_gui - INFO - Modern GUI initialized
+2026-05-24 10:46:59,208 - gui.modern_gui - INFO - Starting Modern GUI application
+2026-05-24 10:47:05,462 - core.speech_engine - INFO - Recognized: tell me today date and time
+2026-05-24 10:47:05,501 - core.commands - INFO - Processing command: tell me today date and time
+2026-05-24 10:47:05,501 - features.time_date - INFO - Retrieved date and time: Sunday, May 24, 2026, 10:47 AM
+2026-05-24 10:47:05,502 - gui.modern_gui - INFO - Executed: tell me today date and time -> Today is Sunday, Sunday, May 24, 2026, and the current time is 10:47 AM
+2026-05-24 10:47:16,627 - core.speech_engine - INFO - Recognized: open YouTube and play muntaz song
+2026-05-24 10:47:16,631 - core.commands - INFO - Processing command: open youtube and play muntaz song
+2026-05-24 10:47:16,839 - core.utils - INFO - Opened website: https://www.youtube.com
+2026-05-24 10:47:16,839 - features.web_browsing - INFO - Opened website: youtube
+2026-05-24 10:47:16,840 - gui.modern_gui - INFO - Executed: open youtube and play muntaz song -> Opening youtube
+2026-05-24 10:47:26,680 - core.speech_engine - INFO - Recognized: open YouTube and play muntazir song
+2026-05-24 10:47:26,687 - core.commands - INFO - Processing command: open youtube and play muntazir song
+2026-05-24 10:47:26,752 - core.utils - INFO - Opened website: https://www.youtube.com
+2026-05-24 10:47:26,753 - features.web_browsing - INFO - Opened website: youtube
+2026-05-24 10:47:26,753 - gui.modern_gui - INFO - Executed: open youtube and play muntazir song -> Opening youtube
+2026-05-24 10:47:32,568 - core.speech_engine - INFO - Recognized: play muntazir
+2026-05-24 10:47:32,571 - core.commands - INFO - Processing command: play muntazir
+2026-05-24 10:47:32,630 - core.utils - INFO - YouTube search: muntazir
+2026-05-24 10:47:32,631 - features.web_browsing - INFO - Searched YouTube: muntazir
+2026-05-24 10:47:32,632 - gui.modern_gui - INFO - Executed: play muntazir -> Opening YouTube and searching for muntazir
+2026-05-24 10:47:39,118 - gui.modern_gui - INFO - Shutting down assistant
+2026-05-24 10:47:39,119 - core.speech_engine - INFO - Speech Engine closed
+2026-05-24 10:47:39,119 - __main__ - INFO - Voice Assistant shutdown complete
+2026-05-24 10:48:45,087 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-24 10:48:45,087 - __main__ - INFO - Starting in Modern GUI mode
+2026-05-24 10:48:45,262 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\Desktop\\voice assistance\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-24 10:48:45,262 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\Desktop\voice assistance\.venv\Lib\site-packages\comtypes\gen'
+2026-05-24 10:48:45,408 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-24 10:48:45,409 - core.commands - INFO - CommandProcessor initialized
+2026-05-24 10:48:45,640 - gui.modern_gui - INFO - Background listening started
+2026-05-24 10:48:45,640 - gui.modern_gui - INFO - Modern GUI initialized
+2026-05-24 10:48:45,640 - gui.modern_gui - INFO - Starting Modern GUI application
+2026-05-24 10:48:50,239 - core.speech_engine - INFO - Recognized: open YouTube
+2026-05-24 10:48:50,274 - core.commands - INFO - Processing command: open youtube
+2026-05-24 10:48:50,483 - core.utils - INFO - Opened website: https://www.youtube.com
+2026-05-24 10:48:50,483 - features.web_browsing - INFO - Opened website: youtube
+2026-05-24 10:48:50,483 - gui.modern_gui - INFO - Executed: open youtube -> Opening youtube
+2026-05-24 10:48:57,072 - core.speech_engine - INFO - Recognized: play muntazir
+2026-05-24 10:48:57,077 - core.commands - INFO - Processing command: play muntazir
+2026-05-24 10:48:57,167 - core.utils - INFO - YouTube search: muntazir
+2026-05-24 10:48:57,168 - features.web_browsing - INFO - Searched YouTube: muntazir
+2026-05-24 10:48:57,168 - gui.modern_gui - INFO - Executed: play muntazir -> Opening YouTube and searching for muntazir
+2026-05-24 10:49:18,712 - gui.modern_gui - INFO - Shutting down assistant
+2026-05-24 10:49:18,713 - core.speech_engine - INFO - Speech Engine closed
+2026-05-24 10:49:18,713 - __main__ - INFO - Voice Assistant shutdown complete
+2026-05-24 13:34:05,561 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-24 13:34:05,561 - __main__ - INFO - Starting in interactive mode
+2026-05-24 13:34:05,633 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\Desktop\\voice assistance\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-24 13:34:05,634 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\Desktop\voice assistance\.venv\Lib\site-packages\comtypes\gen'
+2026-05-24 13:34:05,962 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-24 13:34:05,962 - core.commands - INFO - CommandProcessor initialized
+2026-05-24 13:34:05,962 - features.conversation - INFO - Greeting provided
+2026-05-24 13:34:20,272 - features.conversation - INFO - Farewell provided
+2026-05-24 13:34:20,272 - __main__ - INFO - Interrupted by user
+2026-05-24 13:34:20,273 - __main__ - INFO - Voice Assistant shutdown complete
+2026-05-24 13:39:10,296 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-24 13:39:10,296 - __main__ - INFO - Starting in interactive mode
+2026-05-24 13:39:10,348 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\Desktop\\voice assistance\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-24 13:39:10,349 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\Desktop\voice assistance\.venv\Lib\site-packages\comtypes\gen'
+2026-05-24 13:39:10,499 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-24 13:39:10,500 - core.commands - INFO - CommandProcessor initialized
+2026-05-24 13:39:10,501 - features.conversation - INFO - Greeting provided
+2026-05-24 13:39:27,197 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-24 13:39:27,198 - __main__ - INFO - Starting in interactive mode
+2026-05-24 13:39:27,259 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\Desktop\\voice assistance\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-24 13:39:27,259 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\Desktop\voice assistance\.venv\Lib\site-packages\comtypes\gen'
+2026-05-24 13:39:27,450 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-24 13:39:27,450 - core.commands - INFO - CommandProcessor initialized
+2026-05-24 13:39:27,450 - features.conversation - INFO - Greeting provided
+2026-05-24 13:39:39,363 - features.conversation - INFO - Farewell provided
+2026-05-24 13:39:39,364 - __main__ - INFO - Interrupted by user
+2026-05-24 13:39:39,364 - __main__ - INFO - Voice Assistant shutdown complete
+2026-05-24 13:44:02,726 - __main__ - INFO - Starting Voice Assistant v2.0.0
+2026-05-24 13:44:02,727 - __main__ - INFO - Starting in interactive mode
+2026-05-24 13:44:02,827 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\lenovo\\Desktop\\voice assistance\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-24 13:44:02,828 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\lenovo\Desktop\voice assistance\.venv\Lib\site-packages\comtypes\gen'
+2026-05-24 13:44:03,084 - core.speech_engine - INFO - Speech Engine initialized successfully
+2026-05-24 13:44:03,084 - core.commands - INFO - CommandProcessor initialized
+2026-05-24 13:44:03,085 - features.conversation - INFO - Greeting provided

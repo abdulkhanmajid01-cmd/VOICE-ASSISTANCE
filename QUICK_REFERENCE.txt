@@ -1,0 +1,194 @@
+# 🎯 Jarvis Voice Assistant - Quick Reference Card
+
+## 🚀 START HERE
+
+```bash
+python main.py --gui
+```
+
+---
+
+## 🎙️ VOICE COMMANDS
+
+### Activation (Say First)
+```
+"Jarvis" or "Assistant"
+"Hey Jarvis" or "Hey Assistant"
+```
+
+### Music & Entertainment
+```
+"Play Blinding Lights"
+"Play Believer on YouTube"
+"Search trending songs"
+```
+
+### Search & Browse
+```
+"Search Python on Google"
+"Open YouTube"
+"Open Gmail"
+"Go to GitHub"
+```
+
+### Information
+```
+"What's the time?"
+"What's the date?"
+"How's the weather?"
+"Tell me a joke"
+```
+
+### Notes & Reminders
+```
+"Save note meeting at 3pm"
+"Set reminder call mom"
+"Show my reminders"
+```
+
+### System
+```
+"System usage"
+"Lock screen"
+"CPU usage"
+```
+
+---
+
+## 🎨 GUI LAYOUT
+
+```
+┌─────────────────────────────────────┐
+│ 🟢 🎧 JARVIS Status               │
+├─────────────────────────────────────┤
+│                                     │
+│    🎤 ANIMATED      📡 WAVES      │
+│    MICROPHONE       ANIMATION      │
+│                                     │
+├─────────────────────────────────────┤
+│ Last Command: ✓ Playing Song        │
+├─────────────────────────────────────┤
+│ [🎤 Listen]         [⏹ Exit]      │
+└─────────────────────────────────────┘
+```
+
+---
+
+## 🛠️ ADVANCED OPTIONS
+
+### Interactive Mode
+```bash
+python main.py
+# Type commands instead of speaking
+```
+
+### Voice Mode
+```bash
+python main.py --voice
+# Continuous voice listening
+```
+
+### Demo Mode
+```bash
+python main.py --demo
+# Show sample commands
+```
+
+---
+
+## ⚙️ CUSTOMIZATION
+
+Edit `config.py`:
+
+### Add Wake Words
+```python
+WAKE_WORDS = ["jarvis", "assistant", "alice"]
+```
+
+### Change Theme
+```python
+GUI_THEME_COLOR = "#1a1a1a"  # Your color
+GUI_ACCENT_COLOR = "#00FF00"  # Your color
+```
+
+### Adjust Microphone Sensitivity
+```python
+ENERGY_THRESHOLD = 1500  # Lower = more sensitive
+```
+
+---
+
+## 🐛 TROUBLESHOOTING
+
+### "No speech detected"
+✓ Microphone working?
+✓ Speaking loud enough?
+✓ Quiet environment?
+
+### Commands not executing
+✓ Said wake word first?
+✓ Spoke clearly?
+✓ Internet connected?
+
+### GUI not responding
+✓ Close and restart
+✓ Check microphone access
+✓ Verify Python 3.8+
+
+---
+
+## 📊 FEATURES
+
+| Feature | Status | Hotkey |
+|---------|--------|--------|
+| Background Listen | ✅ | Automatic |
+| Wake Words | ✅ | "Jarvis" |
+| Auto-Execute | ✅ | Immediate |
+| Animations | ✅ | Real-time |
+| Dark Theme | ✅ | Default |
+
+---
+
+## 📁 KEY FILES
+
+```
+main.py              - Start here
+config.py            - Customize settings
+gui/modern_gui.py    - UI code
+core/commands.py     - Command processing
+```
+
+---
+
+## 📖 DOCUMENTATION
+
+```
+JARVIS_FEATURES.md   - All features explained
+ARCHITECTURE.md      - Technical details
+MODERN_QUICKSTART.md - Step-by-step guide
+```
+
+---
+
+## ✨ TIPS
+
+1. **Speak naturally** - Like talking to Siri
+2. **Clear speech** - Enunciate well
+3. **Say wake word first** - "Jarvis, [command]"
+4. **Wait for response** - Let it finish
+5. **Quiet environment** - Better recognition
+
+---
+
+## 🎉 YOU'RE READY!
+
+```bash
+cd "c:\Users\lenovo\Desktop\voice assistance"
+python main.py --gui
+```
+
+Say: **"Jarvis, hello!"** 🚀
+
+---
+
+**Version**: 2.0 | **Status**: ✅ Ready | **Date**: May 14, 2026

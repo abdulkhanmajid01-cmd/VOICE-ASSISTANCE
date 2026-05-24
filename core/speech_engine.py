@@ -7,9 +7,11 @@ import speech_recognition as sr
 import pyttsx3
 import logging
 import threading
+import queue
 from config import (
     LANGUAGE, TTS_RATE, TTS_VOLUME, TTS_VOICE_ID,
-    SPEECH_TIMEOUT, LISTEN_TIMEOUT, ERROR_MESSAGES, DEBUG_MODE
+    SPEECH_TIMEOUT, LISTEN_TIMEOUT, DEBUG_MODE,
+    MIC_INDEX, ENERGY_THRESHOLD, DYNAMIC_ENERGY_THRESHOLD, AMBIENT_NOISE_DURATION
 )
 
 # Configure logging
@@ -26,13 +28,33 @@ class SpeechEngine:
     def __init__(self):
         """Initialize speech recognition and text-to-speech engines."""
         try:
-            # Initialize speech recognizer
+            # Initialize speech recognizer using configuration values
             self.recognizer = sr.Recognizer()
-            self.recognizer.energy_threshold = 4000  # Adjust sensitivity
+            # Set initial energy threshold from config
+            try:
+                self.recognizer.energy_threshold = int(ENERGY_THRESHOLD)
+            except Exception:
+                self.recognizer.energy_threshold = 2000
+
+            # Dynamic energy threshold from config
+            try:
+                self.recognizer.dynamic_energy_threshold = bool(DYNAMIC_ENERGY_THRESHOLD)
+            except Exception:
+                self.recognizer.dynamic_energy_threshold = True
+
+            # Track whether ambient noise has been calibrated once
+            self.noise_calibrated = False
             
             # Initialize text-to-speech engine
             self.tts_engine = pyttsx3.init()
             self._configure_tts()
+            
+            # Thread synchronization for TTS
+            self.tts_active = True  # Set BEFORE starting thread
+            self.tts_lock = threading.Lock()
+            self.tts_queue = queue.Queue()
+            self.tts_worker_thread = threading.Thread(target=self._tts_worker, daemon=False)
+            self.tts_worker_thread.start()
             
             logger.info("Speech Engine initialized successfully")
         except Exception as e:
@@ -59,7 +81,7 @@ class SpeechEngine:
     
     def listen(self, timeout=SPEECH_TIMEOUT):
         """
-        Listen to user voice input.
+        Listen to user voice input with advanced noise filtering and error handling.
         
         Args:
             timeout (int): Maximum time to listen in seconds
@@ -68,26 +90,62 @@ class SpeechEngine:
             str: Recognized text from speech, or empty string if failed
         """
         try:
-            with sr.Microphone() as source:
-                logger.debug("Listening for audio input...")
-                self.recognizer.adjust_for_ambient_noise(source, duration=0.5)
-                audio = self.recognizer.listen(source, timeout=LISTEN_TIMEOUT, phrase_time_limit=timeout)
-            
-            # Recognize speech using Google Speech Recognition
+            # Select microphone device if configured
+            mic_kwargs = {}
+            if MIC_INDEX is not None:
+                try:
+                    mic_kwargs['device_index'] = int(MIC_INDEX)
+                except Exception:
+                    logger.warning(f"Invalid MIC_INDEX in config: {MIC_INDEX}")
+
+            # Open microphone with optional device index
             try:
-                text = self.recognizer.recognize_google(audio, language=LANGUAGE)
-                logger.info(f"Recognized: {text}")
-                return text.lower()
-            except sr.UnknownValueError:
-                logger.warning("Could not understand audio")
+                with sr.Microphone(**mic_kwargs) as source:
+                    logger.debug("Listening for audio input...")
+
+                    # Ambient noise adjustment using config only once for faster repeats
+                    try:
+                        duration = float(AMBIENT_NOISE_DURATION)
+                    except Exception:
+                        duration = 0.5
+                    if not self.noise_calibrated:
+                        self.recognizer.adjust_for_ambient_noise(source, duration=duration)
+                        self.noise_calibrated = True
+
+                    # Optionally update energy threshold (keep from recognizer unless config overrides)
+                    try:
+                        self.recognizer.energy_threshold = int(ENERGY_THRESHOLD)
+                    except Exception:
+                        pass
+
+                    # Listen with timeout handling
+                    try:
+                        audio = self.recognizer.listen(
+                            source,
+                            timeout=LISTEN_TIMEOUT if LISTEN_TIMEOUT else 3,
+                            phrase_time_limit=timeout
+                        )
+                    except sr.WaitTimeoutError:
+                        logger.debug("Listening timeout - no speech detected")
+                        return ""
+
+                # Recognize speech using Google Speech Recognition
+                try:
+                    text = self.recognizer.recognize_google(audio, language=LANGUAGE)
+                    logger.info(f"Recognized: {text}")
+                    return text.lower()
+                except sr.UnknownValueError:
+                    logger.debug("Could not understand audio")
+                    return ""
+                except sr.RequestError as e:
+                    logger.error(f"Google Speech Recognition error: {e}")
+                    return ""
+
+            except OSError as e:
+                logger.error(f"Microphone not found or not available: {e}")
+                logger.debug("Possible fixes: Check microphone connection, set MIC_INDEX in config.py")
                 return ""
-            except sr.RequestError as e:
-                logger.error(f"Google Speech Recognition error: {e}")
-                return ""
-        
-        except (OSError, Exception) as e:
-            logger.error(f"Microphone error: {e}")
-            return ""
+
         except Exception as e:
             logger.error(f"Unexpected error during listening: {e}")
             return ""
@@ -95,24 +153,59 @@ class SpeechEngine:
     def speak(self, text):
         """
         Convert text to speech and play it.
+        Queue the text for processing by the TTS worker thread.
         
         Args:
             text (str): Text to be spoken
         """
         try:
-            logger.debug(f"Speaking: {text}")
-            # Run TTS in a separate thread to avoid blocking the GUI
-            tts_thread = threading.Thread(target=self._speak_thread, args=(text,))
-            tts_thread.daemon = True
-            tts_thread.start()
+            if not self.tts_active:
+                logger.warning("TTS engine is not active")
+                return
+            
+            logger.debug(f"Queuing speech: {text}")
+            # Add to queue for processing
+            self.tts_queue.put(text)
         except Exception as e:
-            logger.error(f"Error in text-to-speech: {e}")
+            logger.error(f"Error queuing speech: {e}")
+    
+    def _tts_worker(self):
+        """
+        Worker thread that processes TTS requests from the queue.
+        This ensures thread-safe, sequential TTS output.
+        Runs continuously and gracefully handles GUI context.
+        """
+        try:
+            while self.tts_active:
+                try:
+                    # Get text from queue with timeout to allow graceful shutdown
+                    text = self.tts_queue.get(timeout=1)
+                    if text is None:  # Sentinel value to stop worker
+                        break
+                    
+                    # Use lock to ensure exclusive access to TTS engine
+                    with self.tts_lock:
+                        try:
+                            logger.debug(f"Speaking: {text}")
+                            self.tts_engine.say(text)
+                            self.tts_engine.runAndWait()
+                        except Exception as e:
+                            logger.error(f"Error in TTS execution: {e}")
+                    
+                except queue.Empty:
+                    # Timeout occurred, continue waiting
+                    continue
+                except Exception as e:
+                    logger.error(f"Error in TTS worker: {e}")
+        except Exception as e:
+            logger.error(f"Fatal error in TTS worker thread: {e}")
     
     def _speak_thread(self, text):
-        """Thread function for text-to-speech."""
+        """Thread function for text-to-speech (legacy support)."""
         try:
-            self.tts_engine.say(text)
-            self.tts_engine.runAndWait()
+            with self.tts_lock:
+                self.tts_engine.say(text)
+                self.tts_engine.runAndWait()
         except Exception as e:
             logger.error(f"Error in TTS thread: {e}")
     
@@ -124,7 +217,13 @@ class SpeechEngine:
             bool: True if microphone is available, False otherwise
         """
         try:
-            with sr.Microphone() as source:
+            mic_kwargs = {}
+            if MIC_INDEX is not None:
+                try:
+                    mic_kwargs['device_index'] = int(MIC_INDEX)
+                except Exception:
+                    pass
+            with sr.Microphone(**mic_kwargs) as source:
                 return True
         except Exception:
             return False
@@ -145,8 +244,15 @@ class SpeechEngine:
         return any(keyword.lower() in text_lower for keyword in keywords)
     
     def close(self):
-        """Cleanup resources."""
+        """Cleanup resources and stop TTS worker thread."""
         try:
+            self.tts_active = False
+            # Send sentinel value to stop worker thread
+            self.tts_queue.put(None)
+            # Wait for worker thread to finish
+            if self.tts_worker_thread.is_alive():
+                self.tts_worker_thread.join(timeout=2)
+            
             if self.tts_engine:
                 self.tts_engine.stop()
             logger.info("Speech Engine closed")
